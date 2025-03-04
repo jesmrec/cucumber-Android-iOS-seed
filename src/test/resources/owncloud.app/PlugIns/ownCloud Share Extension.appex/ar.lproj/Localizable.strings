@@ -1,0 +1,1264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> couldn't download file(s)</key>
+	<string>تعذّر تنزيل الملف (الملفات)</string>
+	<key>%@ (%d bits/channel)</key>
+	<string>%@ (%d bits/channel)</string>
+	<key>%@ / %@</key>
+	<string>%@ / %@</string>
+	<key>%@ / %@ – starting immediately</key>
+	<string>%@ / %@ – بدء على الفور</string>
+	<key>%@ is not available for this item.</key>
+	<string>%@ غير متوفر لهذا العنصر.</string>
+	<key>%@ is not available, when this account is offline. Please open the app and log into your account before you can do this action.</key>
+	<string>%@ غير متوفر ، عندما يكون هذا الحساب غير متصل. يرجى فتح التطبيق وتسجيل الدخول إلى حسابك قبل أن تتمكن من القيام بهذا الإجراء.</string>
+	<key>%@ of %@</key>
+	<string>%@ من %@</string>
+	<key>%@ was updated</key>
+	<string>%@ was updated</string>
+	<key>%@%@ %@ version %@ build %@
+(app: %@, sdk: %@)</key>
+	<string>%@%@%@ إصدار %@ نسخة%@
+(تطبيق: %@, sdk: %@)</string>
+	<key>%ld Item was copied to the clipboard</key>
+	<string>%ld Item was copied to the clipboard</string>
+	<key>%ld Items were copied to the clipboard</key>
+	<string>%ld Items were copied to the clipboard</string>
+	<key>%ld digit code</key>
+	<string>%ld digit code</string>
+	<key>'%@' is currently locked</key>
+	<string>'%@' مقفل حاليًا</string>
+	<key>+ %ld more</key>
+	<string>+ %ld  أكثر</string>
+	<key>Accept</key>
+	<string>قبول</string>
+	<key>Accept Share failed</key>
+	<string>فشلت الموافقة على المشاركة</string>
+	<key>Accepted</key>
+	<string>مقبول</string>
+	<key>Access denied</key>
+	<string>تم رفض الوصول</string>
+	<key>Access for the media selected for upload is limited</key>
+	<string>الوصول إلى الوسائط المحددة للتحميل محدود</string>
+	<key>Account</key>
+	<string>حساب</string>
+	<key>Account setup complete</key>
+	<string>Account setup complete</string>
+	<key>Accounts</key>
+	<string>حسابات</string>
+	<key>Acknowledgements</key>
+	<string>رسائل الإقرار</string>
+	<key>Action</key>
+	<string>الإجراء</string>
+	<key>Action executed</key>
+	<string>تم تنفيذ الإجراء</string>
+	<key>Actions</key>
+	<string>إجراءات</string>
+	<key>Add</key>
+	<string>إضافة</string>
+	<key>Add account</key>
+	<string>إضافة حساب</string>
+	<key>Add item</key>
+	<string>Add item</string>
+	<key>Advanced settings</key>
+	<string>الإعدادات المتقدمة</string>
+	<key>After %ld seconds</key>
+	<string>After %ld seconds</string>
+	<key>After 1 minute</key>
+	<string>بعد دقيقة واحدة (1)</string>
+	<key>After 30 minutes</key>
+	<string>بعد 30 دقيقة</string>
+	<key>After 5 minutes</key>
+	<string>بعد 5 دقائق</string>
+	<key>Agree</key>
+	<string>Agree</string>
+	<key>Albums</key>
+	<string>الألبومات</string>
+	<key>All Photos</key>
+	<string>جميع الصور</string>
+	<key>All done</key>
+	<string>تم كل شيء</string>
+	<key>Allow this app to refresh the content when on Wi-Fi or mobile network in background.</key>
+	<string>Allow this app to refresh the content when on Wi-Fi or mobile network in background.</string>
+	<key>Altitude</key>
+	<string>ارتفاع</string>
+	<key>An error occurred</key>
+	<string>حدث خطأ</string>
+	<key>An item with the same name already exists in this location.</key>
+	<string>يوجد عنصر بنفس الاسم بالفعل في هذا الموقع.</string>
+	<key>An operation is currently performed that prevents connecting to '%@'. Please try again later.</key>
+	<string>تُجرى عملية حاليًا تحول دون الاتصال بـ '%@'. يُرجى المحاولة مجددًا.</string>
+	<key>Aperture</key>
+	<string>Aperture</string>
+	<key>Aperture priority</key>
+	<string>أولوية فتحة العدسة</string>
+	<key>App Version</key>
+	<string>إصدار التطبيق</string>
+	<key>Apply choice to all similar issues</key>
+	<string>تطبيق الاختيار على جميع القضايا المماثلة</string>
+	<key>Apply to all</key>
+	<string>ينطبق على الجميع</string>
+	<key>Approve</key>
+	<string>موافقة</string>
+	<key>Approved</key>
+	<string>معتمدة</string>
+	<key>Are you sure you want to delete these items from the server?</key>
+	<string>هل تريد بالتأكيد حذف هذه العناصر من الخادم؟</string>
+	<key>Are you sure you want to delete this item from the server?</key>
+	<string>هل تريد بالتأكيد حذف هذا العنصر من الخادم؟</string>
+	<key>Are you sure you want to unshare these items?</key>
+	<string>هل تريد بالتأكيد إلغاء مشاركة هذه العناصر؟</string>
+	<key>Are you sure you want to unshare this item?</key>
+	<string>هل تريد بالتأكيد إلغاء مشاركة هذا العنصر؟</string>
+	<key>Audio</key>
+	<string>صوت</string>
+	<key>Authenticated as %@ via %@</key>
+	<string>تمت مصادقة %@ عبر %@</string>
+	<key>Authenticated via</key>
+	<string>تمت المصادقة عبر</string>
+	<key>Authenticating…</key>
+	<string>جارٍ المصادقة…</string>
+	<key>Authentication with %@ is no longer allowed. Re-authentication needed.</key>
+	<string>المصادقة مع%@ لم يعد مسموحا بها. يلزم إعادة المصادقة.</string>
+	<key>Authoring</key>
+	<string>التأليف</string>
+	<key>Authorization failed</key>
+	<string>فشلت المصادقة</string>
+	<key>Auto</key>
+	<string>ٱلي</string>
+	<key>Auto Upload</key>
+	<string>تحميل تلقائي</string>
+	<key>Auto Upload Photos</key>
+	<string>تحميل الصور تلقائيًا</string>
+	<key>Auto Upload Videos</key>
+	<string>تحميل مقاطع الفيديو تلقائيًا</string>
+	<key>Auto mode</key>
+	<string> النظام الآلي</string>
+	<key>Auto upload of media was disabled since configured account / folder was not found</key>
+	<string>تم تعطيل التحميل التلقائي للوسائط نظرًا لعدم وجود حساب/مجلد تم تكوينه</string>
+	<key>Auto-approved</key>
+	<string>معتمدة آليًا</string>
+	<key>Available Offline</key>
+	<string>متوفر دون اتصال بالإنترنت</string>
+	<key>Average</key>
+	<string>متوسط</string>
+	<key>Back</key>
+	<string>عودة</string>
+	<key>Background upload notifications</key>
+	<string>إشعارات تحميل الخلفية</string>
+	<key>Background uploads (Lab Version)</key>
+	<string>Background uploads (Lab Version)</string>
+	<key>Beta Warning</key>
+	<string>Beta Warning</string>
+	<key>Biometric authentication failed</key>
+	<string>فشل إجراء المصادقة البيولوجية</string>
+	<key>Bookmark Metadata</key>
+	<string>Bookmark Metadata</string>
+	<key>Browse</key>
+	<string>تصفح</string>
+	<key>By feature</key>
+	<string>حسب الميزة</string>
+	<key>Camera details</key>
+	<string>تفاصيل الكاميرا</string>
+	<key>Cancel</key>
+	<string>إلغاء</string>
+	<key>Cannot connect to </key>
+	<string>تعذّر الاتصال بـ</string>
+	<key>Capture settings</key>
+	<string>إعدادات الالتقاط</string>
+	<key>Cellular Data Usage</key>
+	<string>Cellular Data Usage</string>
+	<key>Cellular Data Usage have been disabled via MDM configuration. Please contact your administrator for more information.</key>
+	<string>Cellular Data Usage have been disabled via MDM configuration. Please contact your administrator for more information.</string>
+	<key>CenterWeightedAverage</key>
+	<string>وزن المركز: متوسط</string>
+	<key>Certificate Details</key>
+	<string>تفاصيل الشهادة</string>
+	<key>Certificate has issues.
+Open 'Certificate Details' for more informations.</key>
+	<string>حدثت مشكلة بالشهادة.
+افتح 'تفاصيل الشهادة' لمزيد من المعلومات.</string>
+	<key>Certificate may have issues, but was accepted by user.
+Open 'Certificate Details' for more informations.</key>
+	<string>قد تكون هناك مشكلة بالشهادة، ولكن المستخدم وافق عليها.
+افتح 'تفاصيل الشهادة' لمزيد من المعلومات.</string>
+	<key>Certificate was rejected by user.</key>
+	<string>رفض المستخدم الشهادة.</string>
+	<key>Certificates</key>
+	<string>الشهادات</string>
+	<key>Change</key>
+	<string>تغيير</string>
+	<key>Change Sort Order</key>
+	<string>غيِّر ترتيب الفرز</string>
+	<key>Choose destination directory…</key>
+	<string>Choose destination directory…</string>
+	<key>Close Search</key>
+	<string>اغلاق البحث</string>
+	<key>Close Window</key>
+	<string>أغلق النافذة</string>
+	<key>Close actions menu</key>
+	<string>إغلاق قائمة الإجراءات</string>
+	<key>Color model</key>
+	<string>نموذج اللون</string>
+	<key>Color space</key>
+	<string>الفضاء اللوني</string>
+	<key>Compacting</key>
+	<string>مضغوط</string>
+	<key>Compacting of '%@' failed</key>
+	<string>فشل ضغط '%@'</string>
+	<key>Completed update scans</key>
+	<string>إكتملت عملية فحص التحديثات</string>
+	<key>Compulsory flash firing</key>
+	<string>إطلاق فلاش إلزامي</string>
+	<key>Compulsory flash supression</key>
+	<string>قمع فلاش إجباري</string>
+	<key>Connecting...</key>
+	<string>جارٍ الاتصال...</string>
+	<key>Connecting…</key>
+	<string>جارٍ الاتصال...</string>
+	<key>Contact info</key>
+	<string>معلومات إتصال</string>
+	<key>Contacting server…</key>
+	<string>جارٍ الاتصال بالخادم…</string>
+	<key>Contents from cache.</key>
+	<string>محتويات من ذاكرة التخزين المؤقتة.</string>
+	<key>Continue</key>
+	<string>متابعة</string>
+	<key>Continue offline</key>
+	<string>الاستمرار دون اتصال بالإنترنت</string>
+	<key>Convert HEIC to JPEG</key>
+	<string>تحويل HEIC إلى JPEG</string>
+	<key>Convert videos to MP4</key>
+	<string>تحويل ملفات الفيديو إلى MP4</string>
+	<key>Coordinates</key>
+	<string>إحداثيات</string>
+	<key>Copy</key>
+	<string>نسخ</string>
+	<key>Copy "{{itemName}}"</key>
+	<string>Copy "{{itemName}}"</string>
+	<key>Copy Private Link</key>
+	<string>انسخ رابطًا خاصًا</string>
+	<key>Copy here</key>
+	<string>نسخ هنا</string>
+	<key>Copy {{itemCount}} items</key>
+	<string>Copy {{itemCount}} items</string>
+	<key>Copying %ld items…</key>
+	<string>جارٍ نسخ عناصر %ld…</string>
+	<key>Copyright</key>
+	<string>حقوق النشر</string>
+	<key>Could not get the picture</key>
+	<string>تعذّر الحصول على الصورة</string>
+	<key>Couldn't resolve a private link since the item is not known to the server.</key>
+	<string>تعذر حل رابط خاص لأن العنصر غير معروف للخادم.</string>
+	<key>Couldn't resolve a private link since you are offline and corresponding item is not cached locally.</key>
+	<string>تعذر حل رابط خاص نظرًا لأنك في وضع عدم الاتصال ولا يتم تخزين العنصر المقابل محليًا.</string>
+	<key>Create</key>
+	<string>إنشاء</string>
+	<key>Create folder</key>
+	<string>أنشئ مجلدًا</string>
+	<key>Create link</key>
+	<string>Create link</string>
+	<key>Create one file per page</key>
+	<string>أنشئ ملفًا واحدًا لكل صفحة</string>
+	<key>Creating %ld folders…</key>
+	<string>جارٍ إنشاء مجلدات %ld…</string>
+	<key>Creative</key>
+	<string>مبدع</string>
+	<key>Credentials</key>
+	<string>بيانات الاعتماد</string>
+	<key>Cut</key>
+	<string>قص</string>
+	<key>Dark</key>
+	<string>داكن</string>
+	<key>Data usage</key>
+	<string>استخدام البيانات</string>
+	<key>Date</key>
+	<string>التاريخ</string>
+	<key>Decline</key>
+	<string>رفض</string>
+	<key>Decline Share failed</key>
+	<string>فشل رفض المشاركة</string>
+	<key>Declined</key>
+	<string>تم الرفض</string>
+	<key>Decrease Slider Value</key>
+	<string>قلل قيمة شريط التمرير</string>
+	<key>Delete</key>
+	<string>حذف</string>
+	<key>Delete Authentication Data</key>
+	<string>حذف بيانات المصادقة</string>
+	<key>Delete all</key>
+	<string>حذف الكل</string>
+	<key>Delete all Offline Files</key>
+	<string>Delete all Offline Files</string>
+	<key>Delete all log files?</key>
+	<string>هل تريد حذف جميع ملفات السجل؟</string>
+	<key>Delete code</key>
+	<string>احذف الرمز</string>
+	<key>Delete unused local copies</key>
+	<string>حذف نسخ محلية غير مستخدمة</string>
+	<key>Deleting %ld items…</key>
+	<string>جارٍ حذف عناصر %ld…</string>
+	<key>Density</key>
+	<string>كثافة</string>
+	<key>Description</key>
+	<string>الوصف</string>
+	<key>Deselect All</key>
+	<string>إلغاء تحديد الكل</string>
+	<key>Diagnostic Overview</key>
+	<string>نظرة عامة على التشخيص</string>
+	<key>Diagnostics</key>
+	<string>التشخيصات</string>
+	<key>Didn't fire</key>
+	<string>لم يفصل</string>
+	<key>Digitized date</key>
+	<string>تاريخ رقمي</string>
+	<key>Disable gestures</key>
+	<string>Disable gestures</string>
+	<key>Discard changes</key>
+	<string>تجاهل التغييرات</string>
+	<key>Disconnect</key>
+	<string>قطع الاتصال</string>
+	<key>Do you want to log out from '%@'?</key>
+	<string>Do you want to log out from '%@'?</string>
+	<key>Do you want to open the following URL?</key>
+	<string>هل ترغب في فتح عنوان URL التالي؟</string>
+	<key>Document Scanner</key>
+	<string>ماسح المستند</string>
+	<key>Documentation</key>
+	<string>المستندات</string>
+	<key>Documents</key>
+	<string>مستندات</string>
+	<key>Done</key>
+	<string>تم</string>
+	<key>Download / View</key>
+	<string>تنزيل/عرض</string>
+	<key>Download / View / Upload</key>
+	<string>تنزيل/عرض/تحميل</string>
+	<key>Download instead of streaming</key>
+	<string>تنزيل بدلاً من البث</string>
+	<key>Downloaded Files</key>
+	<string>Downloaded Files</string>
+	<key>Downloading %ld files…</key>
+	<string>جارٍ تنزيل ملفات %ld…</string>
+	<key>Duplicate</key>
+	<string>تكرار</string>
+	<key>E</key>
+	<string>E</string>
+	<key>EXIF aux info</key>
+	<string>EXIF aux info</string>
+	<key>Edit</key>
+	<string>تحرير</string>
+	<key>Edit account</key>
+	<string>تحرير الحساب</string>
+	<key>Enable</key>
+	<string>تفعيل</string>
+	<key>Enable diagnostics</key>
+	<string>تمكين التشخيص</string>
+	<key>Enable logging</key>
+	<string>تمكين التسجيل</string>
+	<key>Enabling presentation mode will prevent the display from sleep mode until the view is closed.</key>
+	<string> تمكين وضع العرض التقديمي يؤدي إلى منع الشاشة من وضع السكون إلى أن يتم إغلاق العرض.</string>
+	<key>Enabling this option will attempt to mask private data, so it does not become part of any log. Since logging is a development and debugging feature, though, we can't guarantee that the log file will be free of any private data even with this option enabled. Therefore, please look through any log file and verify its free of any data you're not comfortable sharing before sharing it with anybody.</key>
+	<string>سيعمل تمكين هذا الخيار على إخفاء البيانات الخاصة، كي لا تصبح جزءًا من أي سجل. نظرًا لأن التسجيل ميزة تطويرية ومتعلقة بالتصحيح، ورغم هذا، لا يمكن ضمان خلو ملف السجل من أي بيانات خاصة حتى بعد تمكين هذا الخيار. ولهذا، يُرجى فحص أي ملف سجل والتحقق من خلوه من أي بيانات لا ترغب في مشاركتها قبل مشاركة هذا مع أي شخص.</string>
+	<key>Enter a new code with %ld digits</key>
+	<string>Enter a new code with %ld digits</string>
+	<key>Enter a search term</key>
+	<string>Enter a search term</string>
+	<key>Enter code</key>
+	<string>أدخل الرمز</string>
+	<key>Enter multiple selection</key>
+	<string>أدخل تحديدات متعددة</string>
+	<key>Enter the user or group you want to invite.</key>
+	<string>Enter the user or group you want to invite.</string>
+	<key>Error</key>
+	<string>خطأ</string>
+	<key>Error creating {{itemName}}</key>
+	<string>Error creating {{itemName}}</string>
+	<key>Error fetching transactions</key>
+	<string>خطأ في إحضار المعاملات</string>
+	<key>Error importing %@</key>
+	<string>خطأ في استيراد %@</string>
+	<key>Error loading item</key>
+	<string>خطأ في تحميل العنصر</string>
+	<key>Error loading product info from App Store</key>
+	<string>خطأ في تحميل معلومات المنتج من متجر التطبيقات</string>
+	<key>Error opening %@</key>
+	<string>خطأ فتح %@</string>
+	<key>Error opening {{itemName}} in {{appName}}</key>
+	<string>Error opening {{itemName}} in {{appName}}</string>
+	<key>Error restoring purchases</key>
+	<string>خطا في استعادة عمليات الشراء</string>
+	<key>Exit Full Screen</key>
+	<string>الخروج من وضع ملئ الشاشة</string>
+	<key>Expiration date</key>
+	<string>تاريخ انتهاء الصلاحية</string>
+	<key>Expires {{expirationDate}}</key>
+	<string>Expires {{expirationDate}}</string>
+	<key>Exposure bias</key>
+	<string>إنحياز التعرض</string>
+	<key>Extended upload settings</key>
+	<string> إعدادات تحميل موسعة</string>
+	<key>Face ID</key>
+	<string>معرّف الوجه</string>
+	<key>Favorite item</key>
+	<string>العنصر المفضل</string>
+	<key>Favorites</key>
+	<string>المفضلة</string>
+	<key>Feedback</key>
+	<string>ملاحظات</string>
+	<key>Fetching user information…</key>
+	<string>جارٍ إحضار معلومات المستخدم…</string>
+	<key>File</key>
+	<string>ملف</string>
+	<key>File Provider access has been disabled by the administrator.
+
+Please use the app to access your files.</key>
+	<string>File Provider access has been disabled by the administrator.
+
+Please use the app to access your files.</string>
+	<key>File Provider access has been disabled by the administrator. Please use the app to create new folders.</key>
+	<string>File Provider access has been disabled by the administrator. Please use the app to create new folders.</string>
+	<key>File Provider access has been disabled by the administrator. Please use the share extension to import files.</key>
+	<string>File Provider access has been disabled by the administrator. Please use the share extension to import files.</string>
+	<key>File couldn't be opened</key>
+	<string>تعذّر فتح الملف</string>
+	<key>File format</key>
+	<string>تنسيق الملف</string>
+	<key>File name cannot contain / or \</key>
+	<string>لا يمكن أن يحتوي اسم الملف على / أو \</string>
+	<key>File no longer exists</key>
+	<string>لم يعد الملف موجودًا</string>
+	<key>Files</key>
+	<string>ملفات</string>
+	<key>Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required).</key>
+	<string>ستصبح الملفات والمجلدات المُشار إليها بـ متوفرة دون اتصال غير متوفرة. وسيُعاد تنزيلها في المرة القادمة التي تسجل فيها الدخول إلى حسابك (الاتصال مطلوب).</string>
+	<key>Files selected and downloaded for offline availability will show up here.</key>
+	<string>Files selected and downloaded for offline availability will show up here.</string>
+	<key>Find Next</key>
+	<string>بحث عن التالي</string>
+	<key>Find Previous</key>
+	<string>البحث عن السابق</string>
+	<key>Fired</key>
+	<string>تم فصله </string>
+	<key>Firmware</key>
+	<string>برنامج ثابت</string>
+	<key>Flash</key>
+	<string>وميض</string>
+	<key>Flash compensation</key>
+	<string>تعويض الفلاش</string>
+	<key>Focal length</key>
+	<string>البعد البؤري</string>
+	<key>Focal length @ 35 mm</key>
+	<string>البعد البؤري @ ٣٥ مم</string>
+	<key>Folder</key>
+	<string>مجلد</string>
+	<key>Folder name</key>
+	<string>اسم المجلد</string>
+	<key>Folder removed</key>
+	<string>المجلد محذوف</string>
+	<key>Forbidden Characters</key>
+	<string>أحرف ممنوعة</string>
+	<key>Free</key>
+	<string>مجاني</string>
+	<key>Free on %@</key>
+	<string>مجاني في %@</string>
+	<key>Full Screen</key>
+	<string>شاشة كاملة</string>
+	<key>GPS Location</key>
+	<string>موقع GPS</string>
+	<key>General</key>
+	<string>عام</string>
+	<key>Go to Beginning</key>
+	<string>العودة إلى البداية</string>
+	<key>Go to page</key>
+	<string>اذهب إلى الصفحة</string>
+	<key>Grid</key>
+	<string>Grid</string>
+	<key>Groups</key>
+	<string>مجموعات</string>
+	<key>Help</key>
+	<string>تعليمات</string>
+	<key>Histogram</key>
+	<string>المدرج التكراري</string>
+	<key>How should this file be saved?</key>
+	<string>كيف يمكن حفظ هذا الملف؟</string>
+	<key>ISO</key>
+	<string>ISO</string>
+	<key>If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the login page where you can enter your credentials.</key>
+	<string>If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the login page where you can enter your credentials.</string>
+	<key>If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the {{authmethodName}} login page where you can enter your credentials.</key>
+	<string>If you 'Continue', you will be prompted to allow the '{{app.name}}' app to open the {{authmethodName}} login page where you can enter your credentials.</string>
+	<key>If you choose "Immediately" the App will be locked, when it is no longer in foreground.</key>
+	<string>إذا اخترت "فورًا" فسيتم قفل التطبيق ، عندما لم يعد في المقدمة.</string>
+	<key>If you make an item a favorite, it will turn up here.</key>
+	<string>If you make an item a favorite, it will turn up here.</string>
+	<key>If you would like background media uploads to be more reliable, you should enable background location updates.</key>
+	<string>If you would like background media uploads to be more reliable, you should enable background location updates.</string>
+	<key>If you'd like to give the account a custom name, please enter it below:</key>
+	<string>If you'd like to give the account a custom name, please enter it below:</string>
+	<key>Ignore updates</key>
+	<string>Ignore updates</string>
+	<key>Image details</key>
+	<string>تفاصيل الصورة</string>
+	<key>Image grid</key>
+	<string>Image grid</string>
+	<key>Image metadata</key>
+	<string>البيانات الوصفية للصورة </string>
+	<key>Image metadata, extended upload options</key>
+	<string>بيانات وصفية للصورة ، خيارات تحميل موسعة</string>
+	<key>Images</key>
+	<string>صور</string>
+	<key>Immediately</key>
+	<string>على الفور</string>
+	<key>Import "{{itemName}}"</key>
+	<string>Import "{{itemName}}"</string>
+	<key>Import from Clipboard</key>
+	<string>Import from Clipboard</string>
+	<key>Import not allowed</key>
+	<string>Import not allowed</string>
+	<key>Import {{itemCount}} files</key>
+	<string>Import {{itemCount}} files</string>
+	<key>Importing %@ media files for upload</key>
+	<string>استيراد ملفات وسائط %@ للتحميل</string>
+	<key>Importing files through opening is not allowed on this device.</key>
+	<string>Importing files through opening is not allowed on this device.</string>
+	<key>Importing files through the Share Extension is not allowed on this device.</key>
+	<string>Importing files through the Share Extension is not allowed on this device.</string>
+	<key>Importing item %ld of %ld</key>
+	<string>استيراد العنصر ٪ ld من ٪ ld</string>
+	<key>In order to accurately determine your current licensing status, please add one or more accounts first.</key>
+	<string>من أجل تحديد حالة الترخيص الحالية بدقة ، يرجى إضافة حساب واحد أو أكثر أولاً.</string>
+	<key>In-App Purchases</key>
+	<string>عمليات الشراء داخل التطبيق</string>
+	<key>Include available offline files</key>
+	<string>أدخل الملفات المتوفرة دون اتصال</string>
+	<key>Incorrect code</key>
+	<string>رمز غير صحيح</string>
+	<key>Increase Slider Value</key>
+	<string>زد قيمة شريط التمرير</string>
+	<key>Info</key>
+	<string>معلومات</string>
+	<key>Invalid Page</key>
+	<string>صفحة غير صالحة</string>
+	<key>Invite</key>
+	<string>Invite</string>
+	<key>Issues</key>
+	<string>مسائل</string>
+	<key>Item grid</key>
+	<string>Item grid</string>
+	<key>Item with same name already exists</key>
+	<string>عنصر بنفس الاسم موجود بالفعل</string>
+	<key>Keywords</key>
+	<string>الكلمات المحورية</string>
+	<key>Landscape</key>
+	<string>مشهد</string>
+	<key>Lens ID</key>
+	<string>معرف العدسة</string>
+	<key>Lens info</key>
+	<string>معلومات العدسة</string>
+	<key>Lens make</key>
+	<string>صنع العدسة</string>
+	<key>Lens model</key>
+	<string>نموذج العدسة</string>
+	<key>Lens serial</key>
+	<string>تسلسل العدسة</string>
+	<key>Light</key>
+	<string>ساطع</string>
+	<key>Limited Photo Access</key>
+	<string>وصول محدود للصور</string>
+	<key>Link</key>
+	<string>رابط</string>
+	<key>Link points to an account bookmark which is not configured in the app.</key>
+	<string>يشير الرابط إلى إشارة مرجعية للحساب لم يتم تكوينها في التطبيق.</string>
+	<key>Link resolution failed</key>
+	<string>فشل في حل الرابط</string>
+	<key>Links</key>
+	<string>روابط</string>
+	<key>List</key>
+	<string>قائمة</string>
+	<key>Loading…</key>
+	<string>جارٍ التحميل…</string>
+	<key>Location permission denied</key>
+	<string>تم رفض إذن الموقع</string>
+	<key>Locations</key>
+	<string>Locations</string>
+	<key>Lock application</key>
+	<string>تطبيق القفل</string>
+	<key>Log Destinations</key>
+	<string>وجهات السجل</string>
+	<key>Log Files</key>
+	<string>ملفات السجل</string>
+	<key>Log Level</key>
+	<string>مستوى السجل</string>
+	<key>Log out</key>
+	<string>تسجيل الخروج</string>
+	<key>Logging</key>
+	<string>جارٍ التسجيل</string>
+	<key>Login</key>
+	<string>تسجيل الدخول</string>
+	<key>Make available offline</key>
+	<string>اجعل العنصر متوفر دون اتصال</string>
+	<key>Make unavailable offline</key>
+	<string>اجعل العنصر غير متوفر دون اتصال</string>
+	<key>Manage</key>
+	<string>إدارة</string>
+	<key>Manual</key>
+	<string>يدوي</string>
+	<key>Markup</key>
+	<string>تمييز</string>
+	<key>Markup Documents</key>
+	<string>ميِّز المستندات</string>
+	<key>Markup photos and PDF files.</key>
+	<string>ميِّز الصور وملفات PDF.</string>
+	<key>Mask private data</key>
+	<string>إخفاء البيانات الخاصة</string>
+	<key>Media Export</key>
+	<string>تصدير وسائط الإعلام</string>
+	<key>Media Files</key>
+	<string>ملفات الوسائط</string>
+	<key>Media Upload</key>
+	<string>تحميل الوسائط</string>
+	<key>Media import</key>
+	<string>استيراد الوسائط</string>
+	<key>Metering</key>
+	<string>القياس</string>
+	<key>Missing hostname</key>
+	<string>اسم المضيف مفقود</string>
+	<key>Missing permissions</key>
+	<string>أذونات مفقودة</string>
+	<key>More</key>
+	<string>المزيد</string>
+	<key>More information</key>
+	<string>مزيد من المعلومات </string>
+	<key>Move</key>
+	<string>نقل</string>
+	<key>Move "{{itemName}}"</key>
+	<string>Move "{{itemName}}"</string>
+	<key>Move here</key>
+	<string>نقل هنا</string>
+	<key>Move {{itemCount}} items</key>
+	<string>Move {{itemCount}} items</string>
+	<key>Moving %ld items…</key>
+	<string>جارٍ نقل عناصر %ld…</string>
+	<key>MultiSpot</key>
+	<string>متعدد النقاط</string>
+	<key>Multiple items</key>
+	<string>عناصر متعددة</string>
+	<key>Mute/Unmute</key>
+	<string>كتم / إلغاء كتم الصوت</string>
+	<key>N</key>
+	<string>N</string>
+	<key>Name</key>
+	<string>الاسم</string>
+	<key>Name of saved search</key>
+	<string>Name of saved search</string>
+	<key>Name of template</key>
+	<string>Name of template</string>
+	<key>Network unavailable</key>
+	<string>الشبكة غير متوفرة</string>
+	<key>New Folder</key>
+	<string>مجلد جديد</string>
+	<key>New document</key>
+	<string>مستند جديد</string>
+	<key>New in %@</key>
+	<string>جديد في %@</string>
+	<key>New settings received from MDM</key>
+	<string>تم استلام الإعدادات الجديدة من MDM</string>
+	<key>Next</key>
+	<string>التالي</string>
+	<key>No Access to the media selected for upload</key>
+	<string>لا يوجد وصول إلى اوسائط الإعلام المختارة للتحميل</string>
+	<key>No account has been set up in the {{app.name}} app yet.</key>
+	<string>No account has been set up in the {{app.name}} app yet.</string>
+	<key>No accounts found</key>
+	<string>لم يتم العثور على حسابات</string>
+	<key>No actions available</key>
+	<string>لا توجد إجراءات متوفرة</string>
+	<key>No authentication data has been found for this connection.</key>
+	<string>لم يتم العثور على بيانات مصادقة لهذا الاتصال.</string>
+	<key>No contents</key>
+	<string>No contents</string>
+	<key>No favorites found</key>
+	<string>No favorites found</string>
+	<key>No files available offline</key>
+	<string>No files available offline</string>
+	<key>No issues found. Certificate passed validation.</key>
+	<string>لم يتم العثور على أي مشكلات. اجتازت الشهادة عملية التحقق.</string>
+	<key>No items found matching the search criteria.</key>
+	<string>No items found matching the search criteria.</string>
+	<key>No items shared by link</key>
+	<string>No items shared by link</string>
+	<key>No items shared by you</key>
+	<string>No items shared by you</string>
+	<key>No items shared with you</key>
+	<string>No items shared with you</string>
+	<key>No matches</key>
+	<string>لا يوجد تطابقات</string>
+	<key>No pending messages or ongoing actions.</key>
+	<string>لا توجد رسائل عالقة أو إجراءات جارية.</string>
+	<key>No strobe return detection</key>
+	<string>لم يتعرف على ارتداد الاستروب</string>
+	<key>Normal</key>
+	<string>عادي</string>
+	<key>Not defined</key>
+	<string>غير معرف</string>
+	<key>Not now</key>
+	<string>ليس الآن</string>
+	<key>OK</key>
+	<string>موافق</string>
+	<key>Off</key>
+	<string>إيقاف التشغيل</string>
+	<key>Offline files use</key>
+	<string>استخدام الملفات دون اتصال</string>
+	<key>Open Selected</key>
+	<string>افتح المحدد</string>
+	<key>Open app</key>
+	<string>Open app</string>
+	<key>Open file</key>
+	<string>فتح الملف</string>
+	<key>Open in</key>
+	<string>فتح في</string>
+	<key>Open in a new Window</key>
+	<string>فتح في نافذة جديدة</string>
+	<key>Open in {{appName}} (web)</key>
+	<string>Open in {{appName}} (web)</string>
+	<key>Open login page</key>
+	<string>Open login page</string>
+	<key>Opening documents is not supported by the app provider on this instance.</key>
+	<string>Opening documents is not supported by the app provider on this instance.</string>
+	<key>Opening not allowed</key>
+	<string>Opening not allowed</string>
+	<key>Opening…</key>
+	<string>Opening…</string>
+	<key>Options</key>
+	<string>خيارات</string>
+	<key>Original date</key>
+	<string>التاريخ الأصلي</string>
+	<key>Otherwise background media uploads using background refresh technology would depend on how frequently you use the app.</key>
+	<string>وبخلاف ذلك ، فإن عمليات تحميل وسائط الإعلام في الخلفية باستخدام تقنية تحديث الخلفية ستعتمد على مدى تكرار استخدامك للتطبيق.</string>
+	<key>Outline</key>
+	<string>شرح موجز</string>
+	<key>Overwrite original</key>
+	<string>استبدال الأصلي</string>
+	<key>Owner</key>
+	<string>مالك</string>
+	<key>PDF Documents</key>
+	<string>مستندات PDF</string>
+	<key>Page</key>
+	<string>صفحة</string>
+	<key>Partial</key>
+	<string>جزئي</string>
+	<key>Passcode Lock</key>
+	<string>قفل رمز المرور</string>
+	<key>Passcode option</key>
+	<string>Passcode option</string>
+	<key>Passcode protection is not supported on this device.
+Please disable passcode lock in the app settings.</key>
+	<string>حماية رمز المرور غير مدعومة على هذا الجهاز.
+يرجى تعطيل قفل رمز المرور في إعدادات التطبيق.</string>
+	<key>Passcode setup</key>
+	<string>Passcode setup</string>
+	<key>Passed</key>
+	<string>تم الاجتياز</string>
+	<key>Password</key>
+	<string>كلمة المرور</string>
+	<key>Paste</key>
+	<string>Paste</string>
+	<key>Pattern</key>
+	<string>نمط</string>
+	<key>Pending</key>
+	<string>تعليق</string>
+	<key>Permissions</key>
+	<string>أذونات</string>
+	<key>Photo Pro Features</key>
+	<string>ميزات Photo Pro</string>
+	<key>Photo upload</key>
+	<string>تحميل صورة</string>
+	<key>Photo upload path</key>
+	<string>مسار تحميل الصورة</string>
+	<key>Photometric interpretation</key>
+	<string>القياس الضوئي</string>
+	<key>Photos</key>
+	<string>صور</string>
+	<key>Pick a document type to create:</key>
+	<string>Pick a document type to create:</string>
+	<key>Pick a name</key>
+	<string>Pick a name</string>
+	<key>Place</key>
+	<string>مكان</string>
+	<key>Play/Pause</key>
+	<string>تشغيل/توقف</string>
+	<key>Please choose how many digits you want to use for the passcode lock?</key>
+	<string>Please choose how many digits you want to use for the passcode lock?</string>
+	<key>Please configure an email account</key>
+	<string>يُرجى تكوين حساب بريد إلكتروني</string>
+	<key>Please note: Folders can only be pasted into the %@ app and the same account.</key>
+	<string>Please note: Folders can only be pasted into the %@ app and the same account.</string>
+	<key>Please re-enable location acquisition in system settings</key>
+	<string>الرجاء إعادة تمكين الحصول على الموقع في إعدادات النظام</string>
+	<key>Please try again in %@</key>
+	<string>يُرجى المحاولة مجددًا في %@</string>
+	<key>Please wait…</key>
+	<string>يُرجى الانتظار…</string>
+	<key>Portions of this app may utilize the following copyrighted material, the use of which is hereby acknowledged.</key>
+	<string>قد تستخدم أجزاء من هذا التطبيق المواد التالية المحمية بحقوق الطبع والنشر ، والتي يُعترف باستخدامها بموجب هذا.</string>
+	<key>Portrait</key>
+	<string>لوحة</string>
+	<key>Prefer RAW photos</key>
+	<string>تفضيل  صور RAW</string>
+	<key>Prefer original videos</key>
+	<string>تفضيل مقاطع الفيديو الأصلية</string>
+	<key>Prefer unedited photos</key>
+	<string>تفضيل الصور غير المحررة</string>
+	<key>Preparing account</key>
+	<string>Preparing account</string>
+	<key>Preparing…</key>
+	<string>جارٍ الإعداد…</string>
+	<key>Presentation Mode</key>
+	<string>العرض التقديمي</string>
+	<key>Preserve original media file names</key>
+	<string>الحفاظ على أسماء ملفات الوسائط الأصلية</string>
+	<key>Prevent dragging of files and folders and multiselection using system defined gestures</key>
+	<string>منع سحب الملفات والمجلدات والاختيار المتعدد باستخدام إيماءات محددة من قبل النظام</string>
+	<key>Previous</key>
+	<string>السابق</string>
+	<key>Privacy</key>
+	<string>الخصوصية</string>
+	<key>Privacy Policy</key>
+	<string>سياسة الخصوصية</string>
+	<key>Private Link</key>
+	<string>رابط خاص</string>
+	<key>Pro Features</key>
+	<string>ميزات إصدار Pro</string>
+	<key>Proceed</key>
+	<string>متابعة</string>
+	<key>Processing on server</key>
+	<string>Processing on server</string>
+	<key>Profile</key>
+	<string>ملف التعريف </string>
+	<key>Program</key>
+	<string>برنامج</string>
+	<key>Public Link</key>
+	<string>رابط عام</string>
+	<key>Purchase</key>
+	<string>شراء</string>
+	<key>Purchase failed</key>
+	<string>فشلت عملية الشراء</string>
+	<key>Purchases &amp; Subscriptions</key>
+	<string>Purchases &amp; Subscriptions</string>
+	<key>Quick Access</key>
+	<string>وصول سريع</string>
+	<key>RGB</key>
+	<string>RGB</string>
+	<key>Read</key>
+	<string>قراءة</string>
+	<key>Really delete '%@'?</key>
+	<string>هل تريد بالتأكيد حذف '%@'؟</string>
+	<key>Really include available offline files?</key>
+	<string>هل تريد بالفعل تضمين الملفات المتوفرة دون اتصال؟</string>
+	<key>Recents</key>
+	<string>الأخيرة</string>
+	<key>Recommend to a friend</key>
+	<string>توصية إلى صديق</string>
+	<key>Red eye detection supported</key>
+	<string>تم دعم كشف العين الحمراء</string>
+	<key>Refresh without asking</key>
+	<string>Refresh without asking</string>
+	<key>Rejected</key>
+	<string>مرفوض</string>
+	<key>Remove</key>
+	<string>إزالة</string>
+	<key>Removes downloaded files and local copies of items marked as Available Offline. The latter will be re-downloaded next time you log into your account (connectivity required).</key>
+	<string>Removes downloaded files and local copies of items marked as Available Offline. The latter will be re-downloaded next time you log into your account (connectivity required).</string>
+	<key>Rename</key>
+	<string>إعادة تسمية</string>
+	<key>Repeat code</key>
+	<string>كرر الرمز</string>
+	<key>Resolving link…</key>
+	<string>جارٍ حل الرابط ...</string>
+	<key>Restore purchases</key>
+	<string>استعادة عمليات الشراء</string>
+	<key>Restoring purchases…</key>
+	<string>جارٍ استعادة عمليات الشراء...</string>
+	<key>Resume</key>
+	<string>استئناف</string>
+	<key>Reveal in folder</key>
+	<string>Reveal in folder</string>
+	<key>Review Connection</key>
+	<string>مراجعة الاتصال</string>
+	<key>Revoke approval</key>
+	<string>إلغاء الموافقة</string>
+	<key>S</key>
+	<string>S</string>
+	<key>Save</key>
+	<string>حفظ</string>
+	<key>Save File</key>
+	<string>حفظ الملفات</string>
+	<key>Save as</key>
+	<string>حفظ بتنسيق</string>
+	<key>Save as copy</key>
+	<string>حفظ كنسخة</string>
+	<key>Save as search template</key>
+	<string>Save as search template</string>
+	<key>Save changes</key>
+	<string>حفظ التغييرات</string>
+	<key>Save here</key>
+	<string>قم بالحفظ هنا</string>
+	<key>Save search</key>
+	<string>Save search</string>
+	<key>Saved search</key>
+	<string>Saved search</string>
+	<key>Saved searches</key>
+	<string>Saved searches</string>
+	<key>Saving</key>
+	<string>حفظ</string>
+	<key>Saving edited file failed</key>
+	<string>فشل حفظ الملف المحرر</string>
+	<key>Scan</key>
+	<string>مسح</string>
+	<key>Scan additional</key>
+	<string>مسح إضافي</string>
+	<key>Scan document</key>
+	<string>مسح المستند</string>
+	<key>Scan documents and photos with your camera.</key>
+	<string>امسح المستندات والصور بكاميرا هاتفك.</string>
+	<key>Scans</key>
+	<string>عمليات المسح</string>
+	<key>Scene</key>
+	<string>مشهد</string>
+	<key>Scheduled upload of %ld media assets</key>
+	<string>تحميل مجدول لـ٪ ld أصول وسائط إعلام</string>
+	<key>Scroll to Bottom</key>
+	<string>مرِّر إلى الأسفل</string>
+	<key>Scroll to Top</key>
+	<string>مرِّر إلى الأعلى</string>
+	<key>Search</key>
+	<string>بحث</string>
+	<key>Search PDF</key>
+	<string>بحث في ملف PDF</string>
+	<key>Search account</key>
+	<string>Search account</string>
+	<key>Search folder</key>
+	<string>Search folder</string>
+	<key>Search for users or groups</key>
+	<string>Search for users or groups</string>
+	<key>Search from {{folder.name}}</key>
+	<string>Search from {{folder.name}}</string>
+	<key>Search space</key>
+	<string>Search space</string>
+	<key>Search template</key>
+	<string>Search template</string>
+	<key>Search templates</key>
+	<string>Search templates</string>
+	<key>Search tree</key>
+	<string>Search tree</string>
+	<key>Search {{space.name}}</key>
+	<string>Search {{space.name}}</string>
+	<key>Security</key>
+	<string>الأمان</string>
+	<key>Select</key>
+	<string>تحديد</string>
+	<key>Select All</key>
+	<string>تحديد الكل</string>
+	<key>Select Last Item on Page</key>
+	<string>حدد آخر عنصر في الصفحة</string>
+	<key>Select Next</key>
+	<string>حدد التالي</string>
+	<key>Select Previous</key>
+	<string>حدد السابق</string>
+	<key>Select one or more items.</key>
+	<string>Select one or more items.</string>
+	<key>Select target.</key>
+	<string>Select target.</string>
+	<key>Send feedback</key>
+	<string>إرسال التعليقات</string>
+	<key>Serial number</key>
+	<string>الرقم التسلسلي</string>
+	<key>Server Password</key>
+	<string>كلمة مرور الخادم</string>
+	<key>Server URL</key>
+	<string>عنوان URL الخادم</string>
+	<key>Server Username</key>
+	<string>اسم مستخدم الخادم</string>
+	<key>Server name</key>
+	<string>اسم الخادم</string>
+	<key>Settings</key>
+	<string>الإعدادات</string>
+	<key>Share</key>
+	<string>مشاركة</string>
+	<key>Share Diagnostics</key>
+	<string>مشاركة التشخيص</string>
+	<key>Share Extension disabled</key>
+	<string>Share Extension disabled</string>
+	<key>Share with</key>
+	<string>مشاركة مع</string>
+	<key>Shared by link</key>
+	<string>مشاركة بواسطة الرابط</string>
+	<key>Shared by me</key>
+	<string>Shared by me</string>
+	<key>Shared by {{owner}}</key>
+	<string>Shared by {{owner}}</string>
+	<key>Shared with</key>
+	<string>تمت المشاركة مع</string>
+	<key>Shared with me</key>
+	<string>Shared with me</string>
+	<key>Shared with {{recipients}}</key>
+	<string>Shared with {{recipients}}</string>
+	<key>Shared with {{recipient}}</key>
+	<string>Shared with {{recipient}}</string>
+	<key>Shares</key>
+	<string>المشاركات</string>
+	<key>Sharing</key>
+	<string>مشاركة</string>
+	<key>Sharing requires an active connection.</key>
+	<string>Sharing requires an active connection.</string>
+	<key>Shortcuts Actions</key>
+	<string>إجراءات الاختصارات</string>
+	<key>Show all</key>
+	<string>عرض الكل</string>
+	<key>Show folders on top</key>
+	<string>إظهار المجلدات في الأعلى</string>
+	<key>Show hidden files and folders</key>
+	<string>اعرض الملفات والمجلدات المخفية</string>
+	<key>Show more results</key>
+	<string>Show more results</string>
+	<key>Show new version</key>
+	<string>Show new version</string>
+	<key>Shutter priority</key>
+	<string>سرعة التقاط</string>
+	<key>Shutter speed</key>
+	<string>سرعة التقاط</string>
+	<key>Sign in</key>
+	<string>تسجيل الدخول</string>
+	<key>Size</key>
+	<string>الحجم</string>
+	<key>Skip</key>
+	<string>تخطي</string>
+	<key>Skip Ahead</key>
+	<string>التخطي إلى الأمام</string>
+	<key>Skip Back</key>
+	<string>التخطي للخلف</string>
+	<key>Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app.</key>
+	<string>لا يزال من الممكن استخدام بعض البيانات الخلوية. لتجنب استخدام البيانات الخلوية تمامًا ، يرجى إيقاف تشغيل الوصول إلى الهاتف الخلوي للتطبيق بأكمله في تطبيق الإعدادات.</string>
+	<key>Sort by %@</key>
+	<string>فرز حسب %@</string>
+	<key>Spot</key>
+	<string>نقطة</string>
+	<key>Start setup</key>
+	<string>Start setup</string>
+	<key>Status</key>
+	<string>الحالة</string>
+	<key>Storage</key>
+	<string>السعة التخزينية</string>
+	<key>Strobe return light detected</key>
+	<string>تم التعرف على ضوء ارتداد الاستروب</string>
+	<key>Strobe return light not detected</key>
+	<string>ضوء ارتداد الاستروب غير مكتشف</string>
+	<key>Subscribe</key>
+	<string>اشتراك</string>
+	<key>Subscribe Now</key>
+	<string>اشترك الآن</string>
+	<key>Switch Theme Style</key>
+	<string>Switch Theme Style</string>
+	<key>System</key>
+	<string>النظام</string>
+	<key>System Appeareance</key>
+	<string>مظهر النظام</string>
+	<key>TIFF</key>
+	<string>TIFF</string>
+	<key>Tab %@</key>
+	<string>علامة تبويب %@</string>
+	<key>Take photo or video</key>
+	<string>التقط صورة أو فيديو</string>
+	<key>Tap to launch the app.</key>
+	<string>انقر لتشغيل التطبيق.</string>
+	<key>Tap to quit the app.</key>
+	<string>انقر لإنهاء التطبيق.</string>
+	<key>Terms Of Use</key>
+	<string>شروط الاستخدام</string>
+	<key>Text</key>
+	<string>النص</string>
+	<key>Thank you for using %@.
+</key>
+	<string>شكرا لأستخدامك%@.
+</string>
+	<key>Thank you for using %@.
+If you like our App, please leave an AppStore review.
+❤️</key>
+	<string>نشكرك على استخدام %@.
+إذا أعجبك تطبيقنا، فيُرجى ترك مراجعة AppStore.
+❤</string>
+	<key>The account has been disabled.</key>
+	<string>تم تعطيل الحساب.</string>
+	<key>The connection's access token has expired or become invalid. Sign in again to re-gain access.</key>
+	<string>انتهت صلاحية رمز الوصول للاتصال أو أصبح غير صالح. أعد تسجيل الدخول مرة أخرى للحصول على تصريح بوصول.</string>
+	<key>The entered URL does not include a hostname.</key>
+	<string>لا يتضمن عنوان URL المُدخل اسم مضيف.</string>
+	<key>The entered codes are different</key>
+	<string>الرموز المدخلة مختلفة</string>
+	<key>The entered page number doesn't exist</key>
+	<string>رقم الصفحة المكتوب غير موجود</string>
+	<key>The following steps will guide you through the setup process.</key>
+	<string>The following steps will guide you through the setup process.</string>
+	<key>The last 10 archived logs are kept on the device - with each log covering up to 24 hours of usage. When sharing please bear in mind that logs may contain sensitive information such as server URLs and user-specific information.</key>
+	<string>آخر 10 سجلات محفوظة على الجهاز - يحمل كل سجل تغطية ذاكرة تصل إلى 24 ساعة من الاستخدام. عند المشاركة، يُرجى الانتباه إلى أن السجلات قد تحتوي على معلومات حساسة مثل عناوين URL للخادم ومعلومات خاصة بالمستخدم.</string>
+	<key>The search term you entered did not match any item in the selected scope.</key>
+	<string>The search term you entered did not match any item in the selected scope.</string>
+	<key>The server declined access with the credentials stored for this connection.</key>
+	<string>رفض الخادم الوصول باستخدام بيانات الاعتماد المخزنة لهذا الاتصال.</string>
+	<key>Theme</key>
+	<string>لون الخلفية</string>
+	<key>This action can't be undone.</key>
+	<string>لا يمكن التراجع عن هذا الإجراء.</string>
+	<key>This document has %@ pages</key>
+	<string>يحتوي هذا المستند على %@ صفحة</string>
+	<key>This folder is empty.</key>
+	<string>This folder is empty.</string>
+	<key>This folder is empty. Fill it with content:</key>
+	<string>This folder is empty. Fill it with content:</string>
+	<key>This folder no longer exists on the server.</key>
+	<string>لم يعد هذا المجلد موجودًا في الخادم.</string>
+	<key>This permission is needed to upload photos and videos from your photo library.</key>
+	<string>هذا الإذن مطلوب لتحميل الصور ومقاطع الفيديو من مكتبة الصور.</string>
+	<key>This will also delete all locally stored file copies.</key>
+	<string>سيحذف هذا جميع نسخ الملف المخزنة محليًا.</string>
+	<key>Time</key>
+	<string>وقت</string>
+	<key>Time measured since uploading, editing, downloading or viewing the respective file through this device. Does not apply to files downloaded via the Available Offline feature. Local copies may be deleted before the given period of time has passed, f.ex. because there's a newer version of a file on the server - or through the manual deletion of offline copies. Also, local copies may not be deleted after the given period of time has passed, f.ex. if an action is performed on it, the file is still in use - or the account holding the file hasn't been used in the app.</key>
+	<string>الوقت المقدّر منذ تحميل الملف المعني أو تعديله أو تنزيله أو عرضه بواسطة هذا الجهاز. لا ينطبق على الملفات المنزلة عبر خاصية التوافر دون الاتصال بالإنترنت. يمكن حذف النسخ المحلية قبل انتهاء المدة المحددة، على سبيل المثال، بعد أن تتوفر نسخة أحدث من الملف على الخادم - أو من خلال الحذف اليدوي للنسخ غير المتصلة بالإنترنت. ولا يمكن حذف النسخ المحلية أيضًا بعد انتهاء المدة المحددة، على سبيل المثال، إذا تم تنفيذ إجراء ما عليها، أو أن الملف لا يزال قيد الاستخدام - أو لم يتم استخدام الحساب الذي يحتوي على الملف في التطبيق.</string>
+	<key>To use the app, you need to create a passcode.</key>
+	<string>To use the app, you need to create a passcode.</string>
+	<key>Toggle Search Scope</key>
+	<string>Toggle Search Scope</string>
+	<key>Total update scans</key>
+	<string>فحص كلي للتحديثات</string>
+	<key>Touch ID</key>
+	<string>معرّف اللمس</string>
+	<key>Tree</key>
+	<string>Tree</string>
+	<key>Type</key>
+	<string>النوع</string>
+	<key>URL was copied to the clipboard</key>
+	<string>تم نسخ URL الحافظة</string>
+	<key>Uncalibrated</key>
+	<string>غير متدرج</string>
+	<key>Unfavorite item</key>
+	<string>عنصر غير موات</string>
+	<key>Unlock</key>
+	<string>فتح</string>
+	<key>Unlock %@</key>
+	<string>فتح %@</string>
+	<key>Unlock all Pro Features.</key>
+	<string>ألغِ قفل جميع ميزات إصدار Pro.</string>
+	<key>Unlock using %@?</key>
+	<string>Unlock using %@?</string>
+	<key>Unlocked</key>
+	<string>مفتوح</string>
+	<key>Unshare</key>
+	<string>إلغاء المشاركة</string>
+	<key>Update Status</key>
+	<string>تحديث الحالة</string>
+	<key>Updating %ld items…</key>
+	<string>جارٍ تحديث عناصر %ld…</string>
+	<key>Updating connection…</key>
+	<string>جارٍ تحديث الاتصال…</string>
+	<key>Upload</key>
+	<string>تحميل</string>
+	<key>Upload file</key>
+	<string>تحميل ملف</string>
+	<key>Upload from your photo library</key>
+	<string>تحميل من مكتبة الصور</string>
+	<key>Uploading %ld files…</key>
+	<string>جارٍ تحميل ملفات %ld…</string>
+	<key>Usage terms</key>
+	<string>مصطلحات الاستخدام</string>
+	<key>Use background location updates</key>
+	<string>استخدم تحديثات الموقع في الخلفية</string>
+	<key>Use background refresh</key>
+	<string>استخدم تحديث الخلفية</string>
+	<key>Use ownCloud actions in Shortcuts.</key>
+	<string>استخدم إجراءات ownCloud في الاختصارات.</string>
+	<key>User Interface</key>
+	<string>واجهة المستخدم</string>
+	<key>User-approved certificates</key>
+	<string>شهادات المستخدم المعتمدة</string>
+	<key>Username</key>
+	<string>اسم المستخدم</string>
+	<key>Users</key>
+	<string>مستخدمون</string>
+	<key>Validation Error</key>
+	<string>خطأ في التحقق</string>
+	<key>Version information were copied to the clipboard</key>
+	<string>تم نسخ معلومات الإصدار إلى الحافظة</string>
+	<key>Video upload</key>
+	<string>تحميل فيديو</string>
+	<key>Video upload path</key>
+	<string>مسار تحميل الفيديو</string>
+	<key>Videos</key>
+	<string>مقاطع فيديو</string>
+	<key>W</key>
+	<string>W</string>
+	<key>Waiting for response from login session in external browser…</key>
+	<string>Waiting for response from login session in external browser…</string>
+	<key>Waiting for server response…</key>
+	<string>جارٍ انتظار استجابة الخادم…</string>
+	<key>Warning</key>
+	<string>التحذير</string>
+	<key>Welcome to %@</key>
+	<string>Welcome to %@</string>
+	<key>When activated, logs may impact performance and include sensitive information. However the logs are not subject to automatic submission to %@ servers. Sharing logs with others is sole user responsibility.</key>
+	<string>عند التنشيط، قد تؤثر السجلات في الأداء وقد تتضمن معلومات حساسة. ومع هذا، لا تخضع السجلات للإرسال الآلي إلى خوادم %@. إنَّ مشاركة السجلات مع مستخدمين آخرين هي مسؤولية المستخدم وحده.</string>
+	<key>White balance</key>
+	<string>توازن اللون الأبيض</string>
+	<key>Would you like to view the updated version?</key>
+	<string>Would you like to view the updated version?</string>
+	<key>YCbCr</key>
+	<string>YCbCr</string>
+	<key>You are required to set the passcode</key>
+	<string>أنت مطالب بتعيين رمز المرور</string>
+	<key>You need to configure an email account first to be able to send emails.</key>
+	<string>تحتاج إلى تكوين حساب بريد إلكتروني أولًا حتى تتمكن من إرسال رسائل البريد الإلكتروني.</string>
+	<key>after %@</key>
+	<string>بعد %@</string>
+	<key>after free %@ trial</key>
+	<string>بعد الفترة التجريبية المجانية لـ %@</string>
+	<key>beta</key>
+	<string>بيتا</string>
+	<key>date</key>
+	<string>التاريخ</string>
+	<key>enabled</key>
+	<string>مُفعَّل</string>
+	<key>https://example.com</key>
+	<string>https://example.com</string>
+	<key>kind</key>
+	<string>النوع</string>
+	<key>last used</key>
+	<string>last used</string>
+	<key>license</key>
+	<string>license</string>
+	<key>name</key>
+	<string>الاسم</string>
+	<key>never</key>
+	<string>أبدًا</string>
+	<key>none</key>
+	<string>لا يوجد</string>
+	<key>not present</key>
+	<string>غير موجود</string>
+	<key>off</key>
+	<string>خارج</string>
+	<key>release</key>
+	<string>إصدار</string>
+	<key>shared</key>
+	<string>مُشارك</string>
+	<key>size</key>
+	<string>الحجم</string>
+	<key>unknown</key>
+	<string>غير معروف</string>
+	<key>{{itemCount}} items with {{totalSize}} total ({{fileCount}} files, {{folderCount}} folders)</key>
+	<string>{{itemCount}} items with {{totalSize}} total ({{fileCount}} files, {{folderCount}} folders)</string>
+	<key>{{remaining}} available</key>
+	<string>{{remaining}} available</string>
+</dict>
+</plist>

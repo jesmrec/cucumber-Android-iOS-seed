@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> couldn't download file(s)</key>
+	<string> couldn't download file(s)</string>
+	<key>%@ / %@</key>
+	<string>%@ / %@</string>
+	<key>%@ / %@ – starting immediately</key>
+	<string>%@ / %@ – starting immediately</string>
+	<key>%@ of %@</key>
+	<string>%@ av %@</string>
+	<key>%@%@ %@ version %@ build %@
+(app: %@, sdk: %@)</key>
+	<string>%@%@ %@ version %@ build %@
+(app: %@, sdk: %@)</string>
+	<key>'%@' is currently locked</key>
+	<string>'%@' is currently locked</string>
+	<key>+ %ld more</key>
+	<string>+ %ld more</string>
+	<key>Accept</key>
+	<string>Aksepter</string>
+	<key>Accept Share failed</key>
+	<string>Accept Share failed</string>
+	<key>Accepted</key>
+	<string>Accepted</string>
+	<key>Access denied</key>
+	<string>Adgang nektet</string>
+	<key>Account</key>
+	<string>Konto</string>
+	<key>Accounts</key>
+	<string>Kontoer</string>
+	<key>Acknowledgements</key>
+	<string>Acknowledgements</string>
+	<key>Action executed</key>
+	<string>Action executed</string>
+	<key>Actions</key>
+	<string>Handlinger</string>
+	<key>Add account</key>
+	<string>Legg til en konto</string>
+	<key>Advanced settings</key>
+	<string>Avanserte innstillinger</string>
+	<key>After 1 minute</key>
+	<string>Etter 1 minutt</string>
+	<key>After 30 minutes</key>
+	<string>Etter 30 minutter</string>
+	<key>After 5 minutes</key>
+	<string>Etter 5 minutter</string>
+	<key>Albums</key>
+	<string>Album</string>
+	<key>All Photos</key>
+	<string>Alle bilder</string>
+	<key>All done</key>
+	<string>All done</string>
+	<key>An item with the same name already exists in this location.</key>
+	<string>An item with the same name already exists in this location.</string>
+	<key>An operation is currently performed that prevents connecting to '%@'. Please try again later.</key>
+	<string>En pågående operasjon hindrer tilkobling til '%@'. Prøv igjen senere.</string>
+	<key>App Version</key>
+	<string>App Version</string>
+	<key>Apply choice to all similar issues</key>
+	<string>Apply choice to all similar issues</string>
+	<key>Apply to all</key>
+	<string>Apply to all</string>
+	<key>Approve</key>
+	<string>Godkjent</string>
+	<key>Approved</key>
+	<string>Godkjent</string>
+	<key>Are you sure you want to delete these items from the server?</key>
+	<string>Are you sure you want to delete these items from the server?</string>
+	<key>Are you sure you want to delete this item from the server?</key>
+	<string>Are you sure you want to delete this item from the server?</string>
+	<key>Are you sure you want to unshare these items?</key>
+	<string>Are you sure you want to unshare these items?</string>
+	<key>Are you sure you want to unshare this item?</key>
+	<string>Are you sure you want to unshare this item?</string>
+	<key>Audio</key>
+	<string>Audio</string>
+	<key>Authenticated as %@ via %@</key>
+	<string>Authenticated as %@ via %@</string>
+	<key>Authenticated via</key>
+	<string>Autentisert via</string>
+	<key>Authenticating…</key>
+	<string>Autentiserer...</string>
+	<key>Authorization failed</key>
+	<string>Authorization failed</string>
+	<key>Auto Upload</key>
+	<string>Auto Upload</string>
+	<key>Auto Upload Photos</key>
+	<string>Auto Upload Photos</string>
+	<key>Auto Upload Videos</key>
+	<string>Auto Upload Videos</string>
+	<key>Auto upload of media was disabled since configured account / folder was not found</key>
+	<string>Auto upload of media was disabled since configured account / folder was not found</string>
+	<key>Auto-approved</key>
+	<string>Auto-approved</string>
+	<key>Available Offline</key>
+	<string>Available Offline</string>
+	<key>Back</key>
+	<string>Tilbake</string>
+	<key>Background upload notifications</key>
+	<string>Background upload notifications</string>
+	<key>Biometric authentication failed</key>
+	<string>Biometric authentication failed</string>
+	<key>Browse</key>
+	<string>Browse</string>
+	<key>By feature</key>
+	<string>By feature</string>
+	<key>Cancel</key>
+	<string>Avbryt</string>
+	<key>Cannot connect to </key>
+	<string>Cannot connect to </string>
+	<key>Cellular Data Usage</key>
+	<string>Cellular Data Usage</string>
+	<key>Cellular Data Usage have been disabled via MDM configuration. Please contact your administrator for more information.</key>
+	<string>Cellular Data Usage have been disabled via MDM configuration. Please contact your administrator for more information.</string>
+	<key>Certificate Details</key>
+	<string>Sertifikat Detaljer</string>
+	<key>Certificate has issues.
+Open 'Certificate Details' for more informations.</key>
+	<string>Certificate has issues.
+Open 'Certificate Details' for more informations.</string>
+	<key>Certificate may have issues, but was accepted by user.
+Open 'Certificate Details' for more informations.</key>
+	<string>Certificate may have issues, but was accepted by user.
+Open 'Certificate Details' for more informations.</string>
+	<key>Certificate was rejected by user.</key>
+	<string>Certificate was rejected by user.</string>
+	<key>Certificates</key>
+	<string>Certificates</string>
+	<key>Change</key>
+	<string>Endre</string>
+	<key>Change Sort Order</key>
+	<string>Change Sort Order</string>
+	<key>Close Window</key>
+	<string>Close Window</string>
+	<key>Close actions menu</key>
+	<string>Close actions menu</string>
+	<key>Compacting</key>
+	<string>Compacting</string>
+	<key>Compacting of '%@' failed</key>
+	<string>Compacting of '%@' failed</string>
+	<key>Completed update scans</key>
+	<string>Completed update scans</string>
+	<key>Connecting...</key>
+	<string>Connecting...</string>
+	<key>Connecting…</key>
+	<string>Kobler til...</string>
+	<key>Contacting server…</key>
+	<string>Contacting server…</string>
+	<key>Contents from cache.</key>
+	<string>Contents from cache.</string>
+	<key>Continue</key>
+	<string>Fortsett</string>
+	<key>Continue offline</key>
+	<string>Continue offline</string>
+	<key>Convert HEIC to JPEG</key>
+	<string>Convert HEIC to JPEG</string>
+	<key>Convert videos to MP4</key>
+	<string>Convert videos to MP4</string>
+	<key>Copy</key>
+	<string>Kopier</string>
+	<key>Copy Private Link</key>
+	<string>Copy Private Link</string>
+	<key>Copy here</key>
+	<string>Copy here</string>
+	<key>Copying %ld items…</key>
+	<string>Copying %ld items…</string>
+	<key>Could not get the picture</key>
+	<string>Could not get the picture</string>
+	<key>Couldn't resolve a private link since the item is not known to the server.</key>
+	<string>Couldn't resolve a private link since the item is not known to the server.</string>
+	<key>Couldn't resolve a private link since you are offline and corresponding item is not cached locally.</key>
+	<string>Couldn't resolve a private link since you are offline and corresponding item is not cached locally.</string>
+	<key>Create</key>
+	<string>Opprett</string>
+	<key>Create folder</key>
+	<string>Opprett mappe</string>
+	<key>Create one file per page</key>
+	<string>Create one file per page</string>
+	<key>Creating %ld folders…</key>
+	<string>Creating %ld folders…</string>
+	<key>Credentials</key>
+	<string>Påloggingsdetaljer</string>
+	<key>Cut</key>
+	<string>Cut</string>
+	<key>Dark</key>
+	<string>Mørk</string>
+	<key>Data usage</key>
+	<string>Data usage</string>
+	<key>Decline</key>
+	<string>Avslå</string>
+	<key>Decline Share failed</key>
+	<string>Decline Share failed</string>
+	<key>Declined</key>
+	<string>Avvist</string>
+	<key>Decrease Slider Value</key>
+	<string>Decrease Slider Value</string>
+	<key>Delete</key>
+	<string>Slett</string>
+	<key>Delete Authentication Data</key>
+	<string>Slett Autentiserings Data</string>
+	<key>Delete all</key>
+	<string>Slett alle</string>
+	<key>Delete all Offline Files</key>
+	<string>Delete all Offline Files</string>
+	<key>Delete all log files?</key>
+	<string>Delete all log files?</string>
+	<key>Delete code</key>
+	<string>Slett kode</string>
+	<key>Delete unused local copies</key>
+	<string>Delete unused local copies</string>
+	<key>Deleting %ld items…</key>
+	<string>Deleting %ld items…</string>
+	<key>Deselect All</key>
+	<string>Deselect All</string>
+	<key>Diagnostic Overview</key>
+	<string>Diagnostic Overview</string>
+	<key>Diagnostics</key>
+	<string>Diagnostisering</string>
+	<key>Disable gestures</key>
+	<string>Disable gestures</string>
+	<key>Discard changes</key>
+	<string>Discard changes</string>
+	<key>Disconnect</key>
+	<string>Koble fra</string>
+	<key>Do you want to open the following URL?</key>
+	<string>Do you want to open the following URL?</string>
+	<key>Document Scanner</key>
+	<string>Document Scanner</string>
+	<key>Documents</key>
+	<string>Dokumenter</string>
+	<key>Done</key>
+	<string>Ferdig</string>
+	<key>Download / View</key>
+	<string>Last ned / Se</string>
+	<key>Download / View / Upload</key>
+	<string>Last ned / Se / Last opp</string>
+	<key>Download instead of streaming</key>
+	<string>Download instead of streaming</string>
+	<key>Downloading %ld files…</key>
+	<string>Downloading %ld files…</string>
+	<key>Duplicate</key>
+	<string>Dupliser</string>
+	<key>Edit</key>
+	<string>Endre</string>
+	<key>Edit account</key>
+	<string>Edit account</string>
+	<key>Enable diagnostics</key>
+	<string>Enable diagnostics</string>
+	<key>Enable logging</key>
+	<string>Aktiver loggføring</string>
+	<key>Enabling this option will attempt to mask private data, so it does not become part of any log. Since logging is a development and debugging feature, though, we can't guarantee that the log file will be free of any private data even with this option enabled. Therefore, please look through any log file and verify its free of any data you're not comfortable sharing before sharing it with anybody.</key>
+	<string>Enabling this option will attempt to mask private data, so it does not become part of any log. Since logging is a development and debugging feature, though, we can't guarantee that the log file will be free of any private data even with this option enabled. Therefore, please look through any log file and verify its free of any data you're not comfortable sharing before sharing it with anybody.</string>
+	<key>Enter code</key>
+	<string>Oppgi kode</string>
+	<key>Enter multiple selection</key>
+	<string>Enter multiple selection</string>
+	<key>Error</key>
+	<string>Feil</string>
+	<key>Error fetching transactions</key>
+	<string>Error fetching transactions</string>
+	<key>Error importing %@</key>
+	<string>Error importing %@</string>
+	<key>Error loading item</key>
+	<string>Error loading item</string>
+	<key>Error loading product info from App Store</key>
+	<string>Error loading product info from App Store</string>
+	<key>Error restoring purchases</key>
+	<string>Error restoring purchases</string>
+	<key>Expiration date</key>
+	<string>Utløpsdato</string>
+	<key>Face ID</key>
+	<string>Face ID</string>
+	<key>Favorite item</key>
+	<string>Favorite item</string>
+	<key>Favorites</key>
+	<string>Favoritter</string>
+	<key>Feedback</key>
+	<string>Tilbakemelding</string>
+	<key>Fetching user information…</key>
+	<string>Henter brukerinformasjon...</string>
+	<key>File couldn't be opened</key>
+	<string>File couldn't be opened</string>
+	<key>File format</key>
+	<string>File format</string>
+	<key>File name cannot contain / or \</key>
+	<string>File name cannot contain / or \</string>
+	<key>File no longer exists</key>
+	<string>File no longer exists</string>
+	<key>Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required).</key>
+	<string>Files and folders marked as Available Offline will become unavailable. They will be re-downloaded next time you log into your account (connectivity required).</string>
+	<key>Folder</key>
+	<string>Mappe</string>
+	<key>Folder name</key>
+	<string>Mappenavn</string>
+	<key>Folder removed</key>
+	<string>Folder removed</string>
+	<key>Forbidden Characters</key>
+	<string>Forbidden Characters</string>
+	<key>Free</key>
+	<string>Free</string>
+	<key>Free on %@</key>
+	<string>Free on %@</string>
+	<key>General</key>
+	<string>Generelt</string>
+	<key>Go to page</key>
+	<string>Gå til side</string>
+	<key>Groups</key>
+	<string>Grupper</string>
+	<key>Help</key>
+	<string>Hjelp</string>
+	<key>How should this file be saved?</key>
+	<string>How should this file be saved?</string>
+	<key>If you choose "Immediately" the App will be locked, when it is no longer in foreground.</key>
+	<string>If you choose "Immediately" the App will be locked, when it is no longer in foreground.</string>
+	<key>If you would like background media uploads to be more reliable, you should enable background location updates.</key>
+	<string>If you would like background media uploads to be more reliable, you should enable background location updates.</string>
+	<key>Images</key>
+	<string>Bilder</string>
+	<key>Immediately</key>
+	<string>Immediately</string>
+	<key>Import from Clipboard</key>
+	<string>Import from Clipboard</string>
+	<key>Importing %@ media files for upload</key>
+	<string>Importing %@ media files for upload</string>
+	<key>Importing item %ld of %ld</key>
+	<string>Importing item %ld of %ld</string>
+	<key>In-App Purchases</key>
+	<string>In-App Purchases</string>
+	<key>Include available offline files</key>
+	<string>Include available offline files</string>
+	<key>Incorrect code</key>
+	<string>Incorrect code</string>
+	<key>Increase Slider Value</key>
+	<string>Increase Slider Value</string>
+	<key>Info</key>
+	<string>Info</string>
+	<key>Invalid Page</key>
+	<string>Ugyldig side</string>
+	<key>Item with same name already exists</key>
+	<string>Item with same name already exists</string>
+	<key>Light</key>
+	<string>Lys</string>
+	<key>Link</key>
+	<string>Lenke</string>
+	<key>Link points to an account bookmark which is not configured in the app.</key>
+	<string>Link points to an account bookmark which is not configured in the app.</string>
+	<key>Link resolution failed</key>
+	<string>Link resolution failed</string>
+	<key>Links</key>
+	<string>Lenker</string>
+	<key>Location permission denied</key>
+	<string>Location permission denied</string>
+	<key>Lock application</key>
+	<string>Lock application</string>
+	<key>Log Destinations</key>
+	<string>Log Destinations</string>
+	<key>Log Files</key>
+	<string>Log Files</string>
+	<key>Log Level</key>
+	<string>Log Level</string>
+	<key>Logging</key>
+	<string>Logging</string>
+	<key>Make available offline</key>
+	<string>Make available offline</string>
+	<key>Make unavailable offline</key>
+	<string>Make unavailable offline</string>
+	<key>Manage</key>
+	<string>Manage</string>
+	<key>Markup</key>
+	<string>Markup</string>
+	<key>Markup Documents</key>
+	<string>Markup Documents</string>
+	<key>Markup photos and PDF files.</key>
+	<string>Markup photos and PDF files.</string>
+	<key>Mask private data</key>
+	<string>Mask private data</string>
+	<key>Media Export</key>
+	<string>Media Export</string>
+	<key>Media Files</key>
+	<string>Media Files</string>
+	<key>Media Upload</key>
+	<string>Media Upload</string>
+	<key>Media import</key>
+	<string>Media import</string>
+	<key>Missing hostname</key>
+	<string>Mangler hostname</string>
+	<key>Missing permissions</key>
+	<string>Missing permissions</string>
+	<key>More</key>
+	<string>Mer</string>
+	<key>Move</key>
+	<string>Flytt</string>
+	<key>Move here</key>
+	<string>Flytt hitt</string>
+	<key>Moving %ld items…</key>
+	<string>Moving %ld items…</string>
+	<key>Multiple items</key>
+	<string>Multiple items</string>
+	<key>Name</key>
+	<string>Navn</string>
+	<key>Network unavailable</key>
+	<string>Network unavailable</string>
+	<key>New Folder</key>
+	<string>Ny mappe</string>
+	<key>New in %@</key>
+	<string>New in %@</string>
+	<key>Next</key>
+	<string>Neste</string>
+	<key>No actions available</key>
+	<string>No actions available</string>
+	<key>No authentication data has been found for this connection.</key>
+	<string>No authentication data has been found for this connection.</string>
+	<key>No issues found. Certificate passed validation.</key>
+	<string>No issues found. Certificate passed validation.</string>
+	<key>No matches</key>
+	<string>No matches</string>
+	<key>No pending messages or ongoing actions.</key>
+	<string>No pending messages or ongoing actions.</string>
+	<key>Not now</key>
+	<string>Not now</string>
+	<key>OK</key>
+	<string>OK</string>
+	<key>Off</key>
+	<string>Off</string>
+	<key>Offline files use</key>
+	<string>Offline files use</string>
+	<key>Open Selected</key>
+	<string>Open Selected</string>
+	<key>Open file</key>
+	<string>Åpne fil</string>
+	<key>Open in</key>
+	<string>Open in</string>
+	<key>Open in a new Window</key>
+	<string>Open in a new Window</string>
+	<key>Options</key>
+	<string>Innstillinger</string>
+	<key>Otherwise background media uploads using background refresh technology would depend on how frequently you use the app.</key>
+	<string>Otherwise background media uploads using background refresh technology would depend on how frequently you use the app.</string>
+	<key>Outline</key>
+	<string>Outline</string>
+	<key>Overwrite original</key>
+	<string>Overwrite original</string>
+	<key>Owner</key>
+	<string>Owner</string>
+	<key>PDF Documents</key>
+	<string>PDF Documents</string>
+	<key>Page</key>
+	<string>Side</string>
+	<key>Passcode Lock</key>
+	<string>Passordlås</string>
+	<key>Passed</key>
+	<string>Passed</string>
+	<key>Password</key>
+	<string>Passord</string>
+	<key>Pending</key>
+	<string>Venter</string>
+	<key>Permissions</key>
+	<string>Permissions</string>
+	<key>Photo upload</key>
+	<string>Photo upload</string>
+	<key>Photo upload path</key>
+	<string>Photo upload path</string>
+	<key>Photos</key>
+	<string>Photos</string>
+	<key>Please configure an email account</key>
+	<string>Vennligst konfigurere epost-kontoen din</string>
+	<key>Please re-enable location acquisition in system settings</key>
+	<string>Please re-enable location acquisition in system settings</string>
+	<key>Please try again in %@</key>
+	<string>Please try again in %@</string>
+	<key>Please wait…</key>
+	<string>Vennligst vent...</string>
+	<key>Preparing…</key>
+	<string>Preparing…</string>
+	<key>Preserve original media file names</key>
+	<string>Preserve original media file names</string>
+	<key>Prevent dragging of files and folders and multiselection using system defined gestures</key>
+	<string>Prevent dragging of files and folders and multiselection using system defined gestures</string>
+	<key>Previous</key>
+	<string>Forrige</string>
+	<key>Privacy</key>
+	<string>Privacy</string>
+	<key>Privacy Policy</key>
+	<string>Personvern regler</string>
+	<key>Private Link</key>
+	<string>Private Link</string>
+	<key>Pro Features</key>
+	<string>Pro Features</string>
+	<key>Proceed</key>
+	<string>Fortsett</string>
+	<key>Public Link</key>
+	<string>Public Link</string>
+	<key>Purchase failed</key>
+	<string>Purchase failed</string>
+	<key>Quick Access</key>
+	<string>Quick Access</string>
+	<key>Read</key>
+	<string>Les</string>
+	<key>Really delete '%@'?</key>
+	<string>Really delete '%@'?</string>
+	<key>Really include available offline files?</key>
+	<string>Really include available offline files?</string>
+	<key>Recents</key>
+	<string>Recents</string>
+	<key>Recommend to a friend</key>
+	<string>Anbefal for en venn</string>
+	<key>Rejected</key>
+	<string>Rejected</string>
+	<key>Remove</key>
+	<string>Fjern</string>
+	<key>Rename</key>
+	<string>Gi nytt navn</string>
+	<key>Repeat code</key>
+	<string>Gjenta kode</string>
+	<key>Resolving link…</key>
+	<string>Resolving link…</string>
+	<key>Restore purchases</key>
+	<string>Restore purchases</string>
+	<key>Restoring purchases…</key>
+	<string>Restoring purchases…</string>
+	<key>Resume</key>
+	<string>Gjenoppta</string>
+	<key>Review Connection</key>
+	<string>Gjenopprett Tilkobling</string>
+	<key>Revoke approval</key>
+	<string>Revoke approval</string>
+	<key>Save</key>
+	<string>Lagre</string>
+	<key>Save File</key>
+	<string>Save File</string>
+	<key>Save as</key>
+	<string>Lagre som</string>
+	<key>Save as copy</key>
+	<string>Save as copy</string>
+	<key>Save here</key>
+	<string>Save here</string>
+	<key>Saving</key>
+	<string>Lagrer</string>
+	<key>Saving edited file failed</key>
+	<string>Saving edited file failed</string>
+	<key>Scan</key>
+	<string>Scan</string>
+	<key>Scan additional</key>
+	<string>Scan additional</string>
+	<key>Scan document</key>
+	<string>Scan document</string>
+	<key>Scan documents and photos with your camera.</key>
+	<string>Scan documents and photos with your camera.</string>
+	<key>Scans</key>
+	<string>Scans</string>
+	<key>Scheduled upload of %ld media assets</key>
+	<string>Scheduled upload of %ld media assets</string>
+	<key>Scroll to Bottom</key>
+	<string>Scroll to Bottom</string>
+	<key>Scroll to Top</key>
+	<string>Scroll to Top</string>
+	<key>Search</key>
+	<string>Søk</string>
+	<key>Search PDF</key>
+	<string>Search PDF</string>
+	<key>Security</key>
+	<string>Sikkerhet</string>
+	<key>Select</key>
+	<string>Velg</string>
+	<key>Select All</key>
+	<string>Select All</string>
+	<key>Select Last Item on Page</key>
+	<string>Select Last Item on Page</string>
+	<key>Select Next</key>
+	<string>Select Next</string>
+	<key>Select Previous</key>
+	<string>Select Previous</string>
+	<key>Send feedback</key>
+	<string>Send feedback</string>
+	<key>Server Password</key>
+	<string>Server Password</string>
+	<key>Server URL</key>
+	<string>Server-URL</string>
+	<key>Server Username</key>
+	<string>Server Username</string>
+	<key>Server name</key>
+	<string>Server name</string>
+	<key>Settings</key>
+	<string>Innstillinger</string>
+	<key>Share</key>
+	<string>Delt ressurs</string>
+	<key>Share Diagnostics</key>
+	<string>Share Diagnostics</string>
+	<key>Shared by {{owner}}</key>
+	<string>Shared by {{owner}}</string>
+	<key>Shared with</key>
+	<string>Delt med</string>
+	<key>Shares</key>
+	<string>Delinger</string>
+	<key>Sharing</key>
+	<string>Deling</string>
+	<key>Shortcuts Actions</key>
+	<string>Shortcuts Actions</string>
+	<key>Show all</key>
+	<string>Vis alle</string>
+	<key>Show hidden files and folders</key>
+	<string>Show hidden files and folders</string>
+	<key>Sign in</key>
+	<string>Logg inn</string>
+	<key>Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app.</key>
+	<string>Some cellular data may still be used. To completely avoid the usage of cellular data, please turn off access to cellular for the entire app in the Settings app.</string>
+	<key>Sort by %@</key>
+	<string>Sort by %@</string>
+	<key>Status</key>
+	<string>Status</string>
+	<key>Storage</key>
+	<string>Lager</string>
+	<key>Subscribe Now</key>
+	<string>Subscribe Now</string>
+	<key>System</key>
+	<string>System</string>
+	<key>System Appeareance</key>
+	<string>System Appeareance</string>
+	<key>Tab %@</key>
+	<string>Tab %@</string>
+	<key>Take photo or video</key>
+	<string>Take photo or video</string>
+	<key>Terms Of Use</key>
+	<string>Terms Of Use</string>
+	<key>Text</key>
+	<string>Tekst</string>
+	<key>Thank you for using %@.
+</key>
+	<string>Thank you for using %@.
+</string>
+	<key>Thank you for using %@.
+If you like our App, please leave an AppStore review.
+❤️</key>
+	<string>Thank you for using %@.
+If you like our App, please leave an AppStore review.
+❤️</string>
+	<key>The account has been disabled.</key>
+	<string>The account has been disabled.</string>
+	<key>The connection's access token has expired or become invalid. Sign in again to re-gain access.</key>
+	<string>The connection's access token has expired or become invalid. Sign in again to re-gain access.</string>
+	<key>The entered URL does not include a hostname.</key>
+	<string>Gitt URL mangler hostname</string>
+	<key>The entered codes are different</key>
+	<string>The entered codes are different</string>
+	<key>The entered page number doesn't exist</key>
+	<string>Oppgitt sidetall finnes ikke</string>
+	<key>The last 10 archived logs are kept on the device - with each log covering up to 24 hours of usage. When sharing please bear in mind that logs may contain sensitive information such as server URLs and user-specific information.</key>
+	<string>The last 10 archived logs are kept on the device - with each log covering up to 24 hours of usage. When sharing please bear in mind that logs may contain sensitive information such as server URLs and user-specific information.</string>
+	<key>The server declined access with the credentials stored for this connection.</key>
+	<string>The server declined access with the credentials stored for this connection.</string>
+	<key>Theme</key>
+	<string>Drakt</string>
+	<key>This action can't be undone.</key>
+	<string>This action can't be undone.</string>
+	<key>This document has %@ pages</key>
+	<string>Dette dokumentet har %@ sider</string>
+	<key>This folder no longer exists on the server.</key>
+	<string>Mappen finnes ikke på serveren lenger.</string>
+	<key>This permission is needed to upload photos and videos from your photo library.</key>
+	<string>This permission is needed to upload photos and videos from your photo library.</string>
+	<key>This will also delete all locally stored file copies.</key>
+	<string>Dette bil også slette alle lokale fil-kopier.</string>
+	<key>Time measured since uploading, editing, downloading or viewing the respective file through this device. Does not apply to files downloaded via the Available Offline feature. Local copies may be deleted before the given period of time has passed, f.ex. because there's a newer version of a file on the server - or through the manual deletion of offline copies. Also, local copies may not be deleted after the given period of time has passed, f.ex. if an action is performed on it, the file is still in use - or the account holding the file hasn't been used in the app.</key>
+	<string>Time measured since uploading, editing, downloading or viewing the respective file through this device. Does not apply to files downloaded via the Available Offline feature. Local copies may be deleted before the given period of time has passed, f.ex. because there's a newer version of a file on the server - or through the manual deletion of offline copies. Also, local copies may not be deleted after the given period of time has passed, f.ex. if an action is performed on it, the file is still in use - or the account holding the file hasn't been used in the app.</string>
+	<key>Total update scans</key>
+	<string>Total update scans</string>
+	<key>Touch ID</key>
+	<string>Touch ID</string>
+	<key>URL was copied to the clipboard</key>
+	<string>URL was copied to the clipboard</string>
+	<key>Unfavorite item</key>
+	<string>Unfavorite item</string>
+	<key>Unlock</key>
+	<string>Unlock</string>
+	<key>Unlock %@</key>
+	<string>Lås opp %@</string>
+	<key>Unlock all Pro Features.</key>
+	<string>Unlock all Pro Features.</string>
+	<key>Unlocked</key>
+	<string>Unlocked</string>
+	<key>Unshare</key>
+	<string>Avslutt deling</string>
+	<key>Update Status</key>
+	<string>Update Status</string>
+	<key>Updating %ld items…</key>
+	<string>Updating %ld items…</string>
+	<key>Updating connection…</key>
+	<string>Updating connection…</string>
+	<key>Upload</key>
+	<string>Last opp</string>
+	<key>Upload file</key>
+	<string>Upload file</string>
+	<key>Upload from your photo library</key>
+	<string>Upload from your photo library</string>
+	<key>Uploading %ld files…</key>
+	<string>Uploading %ld files…</string>
+	<key>Use background location updates</key>
+	<string>Use background location updates</string>
+	<key>Use background refresh</key>
+	<string>Use background refresh</string>
+	<key>Use ownCloud actions in Shortcuts.</key>
+	<string>Use ownCloud actions in Shortcuts.</string>
+	<key>User Interface</key>
+	<string>User Interface</string>
+	<key>User-approved certificates</key>
+	<string>User-approved certificates</string>
+	<key>Username</key>
+	<string>Brukernavn</string>
+	<key>Users</key>
+	<string>Brukere</string>
+	<key>Validation Error</key>
+	<string>Valideringsfeil</string>
+	<key>Version information were copied to the clipboard</key>
+	<string>Version information were copied to the clipboard</string>
+	<key>Video upload</key>
+	<string>Video upload</string>
+	<key>Video upload path</key>
+	<string>Video opplastings-sti</string>
+	<key>Videos</key>
+	<string>Videos</string>
+	<key>Waiting for server response…</key>
+	<string>Waiting for server response…</string>
+	<key>Warning</key>
+	<string>Advarsel</string>
+	<key>When activated, logs may impact performance and include sensitive information. However the logs are not subject to automatic submission to %@ servers. Sharing logs with others is sole user responsibility.</key>
+	<string>When activated, logs may impact performance and include sensitive information. However the logs are not subject to automatic submission to %@ servers. Sharing logs with others is sole user responsibility.</string>
+	<key>You need to configure an email account first to be able to send emails.</key>
+	<string>You need to configure an email account first to be able to send emails.</string>
+	<key>after %@</key>
+	<string>after %@</string>
+	<key>after free %@ trial</key>
+	<string>after free %@ trial</string>
+	<key>beta</key>
+	<string>beta</string>
+	<key>date</key>
+	<string>dato</string>
+	<key>enabled</key>
+	<string>aktivert</string>
+	<key>https://example.com</key>
+	<string>https://eksempel.no
+</string>
+	<key>kind</key>
+	<string>kind</string>
+	<key>name</key>
+	<string>name</string>
+	<key>never</key>
+	<string>aldri</string>
+	<key>off</key>
+	<string>off</string>
+	<key>release</key>
+	<string>release</string>
+	<key>shared</key>
+	<string>delte</string>
+	<key>size</key>
+	<string>størrelse</string>
+	<key>unknown</key>
+	<string>ukjent</string>
+</dict>
+</plist>

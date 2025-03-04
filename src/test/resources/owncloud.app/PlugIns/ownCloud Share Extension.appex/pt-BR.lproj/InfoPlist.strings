@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Compartilhar no ownCloud</string>
+	<key>CFBundleName</key>
+	<string>Extensão de compartilhamento ownCloud</string>
+	<key>Share Extension unavailable</key>
+	<string>Extensão de compartilhamento indisponível</string>
+	<key>The Share Extension is not available on this system.</key>
+	<string>A extensão de compartilhamento não está disponível neste sistema.</string>
+</dict>
+</plist>
