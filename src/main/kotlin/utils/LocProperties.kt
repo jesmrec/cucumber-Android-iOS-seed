@@ -1,24 +1,23 @@
 package utils
 
-import java.io.FileInputStream
-import java.io.IOException
+import java.nio.file.Files
+import java.nio.file.Paths
 import java.util.Properties
 
-class LocProperties private constructor() {
+class LocProperties() {
 
     companion object {
-        var properties: Properties? = null
-    }
 
-    init {
-        try {
-            val properties: Properties? = Properties()
-            val inputStream = FileInputStream("execution.properties")
-            properties?.load(inputStream)
-        } catch (e: IOException) {
+        val properties: Properties = Properties()
 
+        init {
+            try {
+                Files.newInputStream(Paths.get("execution.properties")).use { properties.load(it) }
+            } catch (e: Exception) {
+                println("Fail when loading properties file: ${e.message}")
+            }
         }
+
+        fun getProperty(clave: String): String? = properties.getProperty(clave)
     }
-
-
 }

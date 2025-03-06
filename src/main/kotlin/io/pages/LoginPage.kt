@@ -6,6 +6,8 @@ import io.appium.java_client.pagefactory.iOSXCUITFindBy
 import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.support.PageFactory
+import utils.Log
+import java.util.logging.Level
 
 class LoginPage private constructor() : CommonPage() {
 
@@ -50,6 +52,7 @@ class LoginPage private constructor() : CommonPage() {
     }
 
     fun typeURL() {
+        Log.log(Level.FINE, "Type URL")
         if (platform == "iOS") {
             startSetup?.click()
         }
@@ -57,12 +60,14 @@ class LoginPage private constructor() : CommonPage() {
         checkServerButton?.click()
     }
 
-    fun typeCredentials(userName: String?, password: String?) {
+    fun typeCredentials(userName: String, password: String) {
+        Log.log(Level.FINE, "Type credentials")
         userNameText?.sendKeys(userName)
         passwordText?.sendKeys(password)
     }
 
-    fun submitLogin(displayName: String?) {
+    fun submitLogin(displayName: String) {
+        Log.log(Level.FINE, "Submit login")
         loginButton?.click()
         if (platform == "iOS") {
             done?.click()
@@ -72,14 +77,15 @@ class LoginPage private constructor() : CommonPage() {
     }
 
     fun acceptCertificate() {
+        Log.log(Level.FINE, "Accept certificate")
         acceptCertificate?.click()
     }
 
-    fun selectFirstBookmark(displayName: String?) {
+    private fun selectFirstBookmark(displayName: String) {
         getDriver()!!.findElement(By.id(displayName)).click() //iOS
     }
 
     companion object {
-        val instance: LoginPage = LoginPage()
+        val instance: LoginPage by lazy { LoginPage() }
     }
 }

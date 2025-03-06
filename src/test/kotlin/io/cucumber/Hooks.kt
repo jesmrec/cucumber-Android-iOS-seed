@@ -4,36 +4,29 @@ import io.android.AndroidManager
 import io.ios.IOSManager
 import io.cucumber.java.After
 import io.cucumber.java.Before
-import io.cucumber.java.Scenario
 import utils.LocProperties
+import utils.Log
 
 class Hooks {
 
     private val platform: String = System.getProperty("platform")
 
     @Before
-    fun setup(scenario: Scenario) {
-        if (platform == "Android") {
-            AndroidManager.getDriver().activateApp(
-                LocProperties.properties?.getProperty("androidPackage")
-            )
-        } else if (platform == "iOS") {
-            IOSManager.getDriver().activateApp(
-                LocProperties.properties?.getProperty("iOSPackage")
-            )
+    fun setup() {
+        Log.init()
+        when (platform) {
+            "Android" -> AndroidManager.getDriver().activateApp(LocProperties
+                .getProperty("androidPackage"))
+            "iOS" -> IOSManager.getDriver().activateApp(LocProperties.getProperty("iOSPackage"))
         }
     }
 
     @After
-    fun tearDown(scenario: Scenario) {
-        if (platform == "Android") {
-            AndroidManager.getDriver().terminateApp(
-                LocProperties.properties?.getProperty("androidPackage")
-            )
-        } else if (platform == "iOS") {
-            IOSManager.getDriver().terminateApp(
-                LocProperties.properties?.getProperty("iOSPackage")
-            )
+    fun tearDown() {
+        when (platform) {
+            "Android" -> AndroidManager.getDriver().terminateApp(LocProperties
+                .getProperty("androidPackage"))
+            "iOS" -> IOSManager.getDriver().terminateApp(LocProperties.getProperty("iOSPackage"))
         }
     }
 }

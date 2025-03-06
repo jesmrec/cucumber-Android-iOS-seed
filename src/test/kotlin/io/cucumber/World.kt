@@ -5,7 +5,6 @@ import io.pages.MainPage
 
 class World {
 
-    //Involved pages
     val loginPage: LoginPage = LoginPage.instance
     val mainPage: MainPage = MainPage.instance
 }
