@@ -14,12 +14,13 @@ public class Log {
 
     static Logger Log = Logger.getLogger(Log.class.getName());
     static Handler fileHandler = null;
+    private static final String platform = System.getProperty("platform");
 
     public static void init() {
         try {
             Log.getLevel();
             //Adding log files to folder called "logs", created
-            fileHandler = new FileHandler("logs/logs_"+ LocalDateTime.now().toString()+".log",
+            fileHandler = new FileHandler("logs/"+ platform +"logs_"+ LocalDateTime.now().toString()+".log",
                     5 * 1024000, 1, true);
             fileHandler.setFormatter(new SimpleFormatter() {
                 private static final String format = "[%1$tF %1$tT] [%2$-7s] %3$s %n";

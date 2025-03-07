@@ -10,14 +10,14 @@ import java.util.logging.Level;
 
 import io.AppiumManager;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.AutomationName;
 import utils.LocProperties;
 import utils.log.Log;
 
 public class AndroidManager extends AppiumManager {
 
-    private static final String driverURL = LocProperties.getProperties().getProperty("appiumURL");
-    private static final String packageName = LocProperties.getProperties().getProperty("androidPackage");
-    private static final int implicitWait = 5;
+    protected static final String packageName = LocProperties.getProperties()
+            .getProperty("androidPackage");
     private static File app = null;
 
     private AndroidManager() {
@@ -57,7 +57,8 @@ public class AndroidManager extends AppiumManager {
 
         capabilities.setCapability("appium:app", app.getAbsolutePath());
 
-        capabilities.setCapability("appium:automationName", "UIAutomator2");
+        capabilities.setCapability("appium:automationName",
+                "UiAutomator2");
 
         capabilities.setCapability("appium:appPackage", packageName);
 
@@ -65,6 +66,10 @@ public class AndroidManager extends AppiumManager {
                 "com.owncloud.android.ui.activity.SplashActivity");
 
         capabilities.setCapability("appium:appWaitPackage", packageName);
+
+        capabilities.setCapability("appium:avd", "Pixel_6_API_31");
+
+        capabilities.setCapability("appium:autoLaunch", true);
 
         capabilities.setCapability("appium:appWaitForLaunch","true");
 
