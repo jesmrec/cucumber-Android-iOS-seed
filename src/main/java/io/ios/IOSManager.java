@@ -16,9 +16,8 @@ import utils.log.Log;
 
 public class IOSManager extends AppiumManager {
 
-    private static final String driverURL = LocProperties.getProperties().getProperty("appiumURL");
-    private static final String packageName = LocProperties.getProperties().getProperty("iOSPackage");
-    private static final int implicitWait = 5;
+    protected static final String packageName = LocProperties.getProperties()
+            .getProperty("iOSPackage");
     private static File app = null;
 
     private IOSManager() {

@@ -30,7 +30,7 @@ Two parameters are required to run the tests:
 - Platform: iOS / Android
   - Server: URL of the ownCloud server to execute against
 
-    ./gradlew clean test --info -Dplatform=Android -Dserver=https://myserver.com
+    ./gradlew clean test --info -Dplatform=Android -Dserver=https://myserver.com<br>
     ./gradlew clean test --info -Dplatform=iOS -Dserver=https://yourserver.com
 
 If everything goes fine, you'll see everything green!
