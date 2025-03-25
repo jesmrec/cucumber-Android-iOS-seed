@@ -4,6 +4,7 @@ import io.cucumber.java.en.Given
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
 import org.junit.Assert
+import org.junit.Assert.assertTrue
 
 class StepDefinitions (world: World) {
 
@@ -13,24 +14,28 @@ class StepDefinitions (world: World) {
         this.world = world
     }
 
-    @Given("{string} is on the login page")
-    fun user_in_login_page(displayName: String?) {
+    @Given ("Alice is on the login page")
+    fun aliceIsOnTheLoginPage() {
+    }
+
+    @When ("Alice enters the server URL")
+    fun aliceEntersURL() {
         world!!.loginPage.typeURL()
-        world!!.loginPage.acceptCertificate()
     }
 
-    @When("{string} enters {word} and {word}")
-    fun user_enters_credentials(displayName: String, username: String, password: String) {
-        world!!.loginPage.typeCredentials(username, password)
+    @When ("Alice clicks on the login button")
+    fun aliceClicksLogin() {
+        world!!.loginPage.clickLogin()
     }
 
-    @When("{string} clicks on the login button")
-    fun user_clicks_login(displayName: String) {
-        world!!.loginPage.submitLogin(displayName)
+    @When ("Alice enter credentials")
+    fun aliceEnterCredentials() {
+        world!!.credentialsPage.enterCredentials()
+        world!!.credentialsPage.grantPermissions()
     }
 
-    @Then("{string} should be redirected to the home page")
-    fun user_redirected_home_page(displayName: String) {
-        Assert.assertTrue(world!!.mainPage.isMainPageDisplayed())
+    @Then ("Alice should be redirected to the home page")
+    fun aliceRedirectedHome() {
+        assertTrue(world!!.mainPage.isFilesDisplayed()!!)
     }
 }

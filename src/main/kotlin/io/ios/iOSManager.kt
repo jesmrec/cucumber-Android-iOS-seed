@@ -16,7 +16,6 @@ class IOSManager private constructor() : AppiumManager() {
 
     companion object {
         private val packageName = LocProperties.getProperty("iOSPackage")
-        private var driver: IOSDriver? = null
 
         private fun init() {
             val rootPath = File(System.getProperty("user.dir"))
@@ -37,7 +36,7 @@ class IOSManager private constructor() : AppiumManager() {
             if (driver == null) {
                 init()
             }
-            return driver!!
+            return driver as IOSDriver
         }
 
         private fun setCapabilities(capabilities: DesiredCapabilities) {

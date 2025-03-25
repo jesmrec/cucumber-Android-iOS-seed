@@ -58,6 +58,8 @@ tasks.test {
     testLogging.showStandardStreams = true
     systemProperty("platform", System.getProperty("platform"))
     systemProperty("server", System.getProperty("server"))
+    systemProperty("username", System.getProperty("username"))
+    systemProperty("password", System.getProperty("password"))
 }
 
 gradle.startParameter.isContinueOnFailure = true

@@ -1,13 +1,9 @@
 Feature: Login
 
-  Scenario Outline: Login in the app
+  Scenario: Login in the app
 
-    Given <displayName> is on the login page
-    When <displayName> enters <username> and <password>
-    And <displayName> clicks on the login button
-    Then <displayName> should be redirected to the home page
-
-    Examples:
-
-      | username | password | displayName  |
-      | user1    | a        | "Joeh Smith" |
+    Given Alice is on the login page
+    When Alice enters the server URL
+    And Alice clicks on the login button
+    And Alice enter credentials
+    Then Alice should be redirected to the home page

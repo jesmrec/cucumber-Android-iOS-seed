@@ -8,7 +8,7 @@ open class AppiumManager {
 
     protected companion object {
         val driverURL = LocProperties.getProperty("appiumURL")
-        val implicitWait: Long = 5
+        val implicitWait: Long = 10
         var app: File? = null
         var driver: AppiumDriver? = null
     }

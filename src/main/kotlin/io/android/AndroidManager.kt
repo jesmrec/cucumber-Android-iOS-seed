@@ -16,12 +16,11 @@ class AndroidManager private constructor() : AppiumManager() {
 
     companion object {
         private var packageName = LocProperties.getProperty("androidPackage")
-        private var driver: AndroidDriver? = null
 
         private fun init() {
             val rootPath = File(System.getProperty("user.dir"))
             val appDir = File(rootPath, "src/test/resources")
-            app = File(appDir, LocProperties.getProperty("apkName"))
+            app = LocProperties.getProperty("apkName")?.let { File(appDir, it) }
 
             val capabilities = DesiredCapabilities()
             setCapabilities(capabilities)
@@ -39,7 +38,7 @@ class AndroidManager private constructor() : AppiumManager() {
             if (driver == null) {
                 init()
             }
-            return driver!!
+            return driver as AndroidDriver
         }
 
         private fun setCapabilities(capabilities: DesiredCapabilities) {
@@ -56,13 +55,17 @@ class AndroidManager private constructor() : AppiumManager() {
 
             capabilities.setCapability("appium:app", app?.absolutePath)
 
-            capabilities.setCapability("appium:automationName",
-                AutomationName.ANDROID_UIAUTOMATOR2)
+            capabilities.setCapability(
+                "appium:automationName",
+                AutomationName.ANDROID_UIAUTOMATOR2
+            )
 
             capabilities.setCapability("appium:appPackage", packageName)
 
-            capabilities.setCapability("appium:appActivity",
-                "com.owncloud.android.ui.activity.SplashActivity")
+            capabilities.setCapability(
+                "appium:appActivity",
+                ".presentation.MainActivity"
+            )
 
             capabilities.setCapability("appium:appWaitPackage", packageName)
 
