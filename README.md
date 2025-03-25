@@ -1,6 +1,6 @@
 # Cucumber + Appium + Mobile testing
 
-This is a sample project to show how to run Cucumber tests on Android/iOS devices using Appium with Java driver
+This is a sample project to show how to run Cucumber tests on Android/iOS devices using Appium with Java driver, using kotlin language
 
 ## Requirements
 
@@ -13,13 +13,10 @@ The sample is setup to run in both Android and iOS:
 - For Android, you need to attach an emulator or a real device, running in advance.
 - For iOS, it only works with simulator. You need to have Xcode installed in your machine. Not required to run in advance, the simulator will be launched by Appium.
 
-The test subject will be the [ownCloud](https://github.com/owncloud/) mobile apps. Artifacts .apk and .app are included in the project.
+The test subject will be the [Kiteworks PoC](https://github.com/juancaG05/KiteworksKMMPoC) app. Artifacts .apk and .app are included in the project.
 
-Also, required to have an ownCloud server running and reachable from the device, including a user with the following setup:
+Also, required to have an Kiteworks server running and reachable from the device.
 
-- Username: user1
-- Password: a
-- Display name: Joeh Smith
 
 ## Use Gradle
 
@@ -28,19 +25,25 @@ Now, we are ready to launch the test. Type the following command to run the test
 Two parameters are required to run the tests:
 
 - Platform: iOS / Android
-  - Server: URL of the ownCloud server to execute against
+- Server: URL of the kiteworks server to execute against
+- Username
+- Password
 
-    ./gradlew clean test --info -Dplatform=Android -Dserver=https://myserver.com<br>
-    ./gradlew clean test --info -Dplatform=iOS -Dserver=https://yourserver.com
+```
+./gradlew clean test --info -Dplatform=Android -Dserver=https://myserver.com -Dusername=alice -Dpassword=hello
+
+./gradlew clean test --info -Dplatform=iOS -Dserver=https://yourserver.com -Dusername=alice -Dpassword=hello
+```
 
 If everything goes fine, you'll see everything green!
 
 <font color='green'>
 
-      Given "Joeh Smith" is on the login page
-      When "Joeh Smith" enters user1 and a
-      And "Joeh Smith" clicks on the login button
-      Then "Joeh Smith" should be redirected to the home page
+    Given Alice is on the login page
+    When Alice enters the server URL
+    And Alice clicks on the login button
+    And Alice enter credentials
+    Then Alice should be redirected to the home page
 
     ┌───────────────────────────────────────────────────────────────────────────────────┐
     │ Share your Cucumber Report with your team at https://reports.cucumber.io          │
