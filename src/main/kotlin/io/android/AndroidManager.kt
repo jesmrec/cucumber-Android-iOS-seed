@@ -3,12 +3,11 @@ package io.android
 import io.AppiumManager
 import io.appium.java_client.android.AndroidDriver
 import io.appium.java_client.remote.AutomationName
-
 import org.openqa.selenium.remote.DesiredCapabilities
 import utils.LocProperties
 import utils.Log
 import java.io.File
-import java.net.URL
+import java.net.URI
 import java.time.Duration
 import java.util.logging.Level
 
@@ -26,7 +25,7 @@ class AndroidManager private constructor() : AppiumManager() {
             setCapabilities(capabilities)
 
             try {
-                driver = AndroidDriver(URL(driverURL), capabilities)
+                driver = AndroidDriver(URI(driverURL).toURL(), capabilities)
                 driver!!.manage()?.timeouts()?.implicitlyWait(Duration.ofSeconds(implicitWait))
                 Log.log(Level.FINE, "Driver initialized")
             } catch (e: Exception) {
@@ -48,10 +47,6 @@ class AndroidManager private constructor() : AppiumManager() {
             capabilities.setCapability("appium:deviceName", "test")
 
             capabilities.setCapability("appium:autoLaunch", true)
-
-            capabilities.setCapability("appium:platformVersion", "12.0")
-
-            capabilities.setCapability("appium:avd", "Pixel_6_API_31")
 
             capabilities.setCapability("appium:app", app?.absolutePath)
 

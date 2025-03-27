@@ -1,6 +1,7 @@
 package io.ios
 
 import io.AppiumManager
+import io.appium.java_client.android.AndroidDriver
 import io.appium.java_client.ios.IOSDriver
 import io.appium.java_client.remote.AutomationName
 import org.openqa.selenium.remote.DesiredCapabilities
@@ -8,7 +9,7 @@ import utils.LocProperties
 import utils.Log
 import java.io.File
 import java.net.MalformedURLException
-import java.net.URL
+import java.net.URI
 import java.time.Duration
 import java.util.logging.Level
 
@@ -25,7 +26,7 @@ class IOSManager private constructor() : AppiumManager() {
             val capabilities = DesiredCapabilities()
             setCapabilities(capabilities)
             try {
-                driver = IOSDriver(URL(driverURL), capabilities)
+                driver = AndroidDriver(URI(driverURL).toURL(), capabilities)
                 driver?.manage()?.timeouts()?.implicitlyWait(Duration.ofSeconds(implicitWait))
             } catch (e: MalformedURLException) {
                 Log.log(Level.SEVERE, "Exception in FileHandler: " + e.message)

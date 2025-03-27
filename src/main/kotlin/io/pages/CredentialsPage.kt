@@ -11,42 +11,37 @@ import java.util.logging.Level
 
 class CredentialsPage private constructor() : CommonPage() {
 
-    private val userNameFieldxpath: String = "//*[@resource-id='email']"
+    private val userNameFieldxpath: String = "//android.widget.EditText[@resource-id=\"email\"]"
     private val nextButtonxpath: String = "//android.widget.Button[@text=\"Next\"]"
-    private val passwordFieldxpath: String = "//*[@resource-id='password']"
+    private val passwordFieldxpath: String = "//android.widget.EditText[@resource-id=\"password\"]"
     private val signInButtonxpath: String = "//android.widget.Button[@text=\"Sign in\"]"
-    private val grantAccessButtonxpath: String = "//*[@resource-id='btnAccept']"
+    private val grantAccessButtonxpath: String = "//android.widget.Button[@resource-id=\"btnAccept\"]"
     private val dlixpath: String = "//android.widget.TextView[@text=\"*/dli/*\"]"
 
     private val userName: String = System.getProperty("username")
     private val password: String = System.getProperty("password")
 
     fun enterCredentials() {
-        val usernameField: List<WebElement> =
-            getDriver()!!.findElements(By.xpath(userNameFieldxpath))
-        if (usernameField.isNotEmpty()) { //If it is already stored in the device browser
+        val usernameField: List<WebElement>? = getDriver()!!.findElements(By.xpath(userNameFieldxpath))
+        if (usernameField?.isNotEmpty() == true) {
             Log.log(Level.FINE, "Enter credentials")
-            usernameField.get(0).sendKeys(userName)
-            val nextButton: WebElement = getDriver()!!.findElement(By.xpath(nextButtonxpath))
-            nextButton.click()
-            val passwordField: WebElement = getDriver()!!.findElement(By.xpath(passwordFieldxpath))
-            passwordField.sendKeys(password)
-            val signInButton: WebElement = getDriver()!!.findElement(By.xpath(signInButtonxpath))
-            signInButton.click()
-            signInButton.click()
+            usernameField?.get(0)?.sendKeys(userName)
+            getDriver()!!.findElement(By.xpath(nextButtonxpath)).click()
+            getDriver()!!.findElement(By.xpath(passwordFieldxpath)).sendKeys(password)
+            getDriver()!!.findElement(By.xpath(signInButtonxpath)).click()
+            getDriver()!!.findElement(By.xpath(signInButtonxpath)).click()
         }
     }
 
     fun grantPermissions() {
         Log.log(Level.FINE, "Accepting services")
-        val wait = WebDriverWait(getDriver()!!, Duration.ofSeconds(15.toLong()))
-        wait.until(
-            ExpectedConditions.visibilityOfElementLocated(AppiumBy.xpath(dlixpath))
-        )
+
+        WebDriverWait(getDriver()!!, Duration.ofSeconds(15)).apply {
+            until(ExpectedConditions.visibilityOfElementLocated(AppiumBy.xpath(dlixpath)))
+        }
+
         swipe(0.50, 0.80, 0.50, 0.20)
-        val grantAccessButton: WebElement =
-            getDriver()!!.findElement(By.xpath(grantAccessButtonxpath))
-        grantAccessButton.click()
+        getDriver()!!.findElement(By.xpath(grantAccessButtonxpath)).click()
     }
 
     companion object {

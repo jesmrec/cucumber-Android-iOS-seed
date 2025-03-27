@@ -8,13 +8,13 @@ import utils.Log
 import java.util.logging.Level
 
 
-class LoginPage private constructor() : CommonPage() {
+class LoginPage : CommonPage() {
 
     @AndroidFindBy(xpath = "//*[@resource-id='server_url_field']")
-    private var urlField: WebElement? = null
+    private lateinit var urlField: WebElement
 
     @AndroidFindBy(xpath = "//*[@resource-id='login_button']")
-    private val loginButton: WebElement? = null
+    private lateinit var loginButton: WebElement
 
     private val server: String = System.getProperty("server")
 
@@ -24,13 +24,15 @@ class LoginPage private constructor() : CommonPage() {
 
     fun typeURL() {
         Log.log(Level.FINE, "Type URL")
-        urlField?.clear()
-        urlField?.sendKeys(server)
+        urlField.apply{
+            clear()
+            sendKeys(server)
+        }
     }
 
     fun clickLogin() {
         Log.log(Level.FINE, "Click Login")
-        loginButton?.click()
+        loginButton.click()
     }
 
     companion object {

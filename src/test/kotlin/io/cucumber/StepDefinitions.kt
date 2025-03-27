@@ -36,6 +36,6 @@ class StepDefinitions (world: World) {
 
     @Then ("Alice should be redirected to the home page")
     fun aliceRedirectedHome() {
-        assertTrue(world!!.mainPage.isFilesDisplayed()!!)
+        assertTrue(world!!.mainPage.isFilesDisplayed())
     }
 }
