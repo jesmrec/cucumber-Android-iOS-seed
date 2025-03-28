@@ -3,7 +3,6 @@ package io.cucumber
 import io.cucumber.java.en.Given
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
-import org.junit.Assert
 import org.junit.Assert.assertTrue
 
 class StepDefinitions (world: World) {
@@ -28,14 +27,13 @@ class StepDefinitions (world: World) {
         world!!.loginPage.clickLogin()
     }
 
-    @When ("Alice enter credentials")
-    fun aliceEnterCredentials() {
-        world!!.credentialsPage.enterCredentials()
-        world!!.credentialsPage.grantPermissions()
-    }
-
     @Then ("Alice should be redirected to the home page")
     fun aliceRedirectedHome() {
-        assertTrue(world!!.mainPage.isFilesDisplayed())
+        assertTrue(world!!.mainPage.isMainPageDisplayed())
+    }
+
+    @Then ("Alice should see the folder named {word}")
+    fun aliceSeesFolder(folderName: String) {
+        assertTrue(world!!.mainPage.isFolderDisplayed(folderName))
     }
 }

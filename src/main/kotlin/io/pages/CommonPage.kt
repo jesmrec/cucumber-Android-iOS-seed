@@ -4,7 +4,6 @@ import io.android.AndroidManager
 import io.appium.java_client.AppiumDriver
 import io.ios.IOSManager
 import org.openqa.selenium.Dimension
-import org.openqa.selenium.interactions.Actions
 import org.openqa.selenium.interactions.PointerInput
 import utils.Log
 import java.time.Duration
@@ -14,7 +13,6 @@ import java.util.logging.Level
 open class CommonPage {
 
     private val platform: String = System.getProperty("platform")
-    protected val actions = Actions(getDriver())
 
     fun getDriver(): AppiumDriver? {
         return when (platform) {
@@ -51,4 +49,8 @@ open class CommonPage {
         getDriver()!!.perform(Arrays.asList(swipe))
     }
 
+    fun printPage() {
+        val pageSource = getDriver()!!.pageSource
+        println(pageSource)
+    }
 }

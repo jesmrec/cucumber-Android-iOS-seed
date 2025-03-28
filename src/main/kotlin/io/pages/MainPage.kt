@@ -11,18 +11,24 @@ import java.util.logging.Level
 
 class MainPage : CommonPage() {
 
-    @AndroidFindBy(xpath = "//*[@resource-id='fab']")
+    @AndroidFindBy(xpath = "//androidx.compose.ui.platform.ComposeView/android.view.View/" +
+            "android.view.View/android.view.View/android.view.View[3]/android.widget.Button")
     private lateinit var fabButton: WebElement
 
     init {
         PageFactory.initElements(AppiumFieldDecorator(getDriver()), this)
     }
 
-    fun isFilesDisplayed(fileName: String = "TestForE2EAuto"): Boolean {
+    fun isMainPageDisplayed(): Boolean {
+        Log.log(Level.FINE, "Checking whether main page is displayed")
+        return ::fabButton.isInitialized && fabButton.isDisplayed
+    }
+
+    fun isFolderDisplayed(folderName: String): Boolean {
         Log.log(Level.FINE, "Checking whether files are displayed")
-        val folderDisp = getDriver()!!.findElement(By.xpath(
-            "//android.widget.TextView[@text=\"$fileName\"]"))
-        return ::fabButton.isInitialized && fabButton.isDisplayed && folderDisp.isDisplayed
+        val folder = getDriver()!!.findElement(By.xpath(
+            "//android.widget.TextView[@text=\"$folderName\"]"))
+        return folder.isDisplayed
     }
 
     companion object {

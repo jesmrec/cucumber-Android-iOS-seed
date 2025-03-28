@@ -10,10 +10,10 @@ import java.util.logging.Level
 
 class LoginPage : CommonPage() {
 
-    @AndroidFindBy(xpath = "//*[@resource-id='server_url_field']")
+    @AndroidFindBy(className = "android.widget.EditText")
     private lateinit var urlField: WebElement
 
-    @AndroidFindBy(xpath = "//*[@resource-id='login_button']")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Go']")
     private lateinit var loginButton: WebElement
 
     private val server: String = System.getProperty("server")
@@ -24,15 +24,18 @@ class LoginPage : CommonPage() {
 
     fun typeURL() {
         Log.log(Level.FINE, "Type URL")
-        urlField.apply{
-            clear()
-            sendKeys(server)
+        urlField?.let{
+            Log.log(Level.FINE, "URL not null")
+            it.clear()
+            it.sendKeys(server)
         }
     }
 
     fun clickLogin() {
         Log.log(Level.FINE, "Click Login")
-        loginButton.click()
+        loginButton.let{
+            it.click()
+        }
     }
 
     companion object {

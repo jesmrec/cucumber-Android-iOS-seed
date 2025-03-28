@@ -13,7 +13,9 @@ The sample is setup to run in both Android and iOS:
 - For Android, you need to attach an emulator or a real device, running in advance.
 - For iOS, it only works with simulator. You need to have Xcode installed in your machine. Not required to run in advance, the simulator will be launched by Appium.
 
-The test subject will be the [Kiteworks PoC](https://github.com/juancaG05/KiteworksKMMPoC) app. Artifacts .apk and .app are included in the project.
+The test subject will be the [Kiteworks PoC](https://github.com/juancaG05/KiteworksKMMPoC) app. Copy the .apk file to /src/test/resources folder before executing.
+
+The apk over the [Kiteworks PoC](https://github.com/juancaG05/KiteworksKMMPoC) app must include a valid token to be added in the file [config.properties](https://github.com/JuancaG05/KiteworksKMMPoC/blob/main/androidApp/src/main/assets/config.properties) before building.
 
 Also, required to have an Kiteworks server running and reachable from the device.
 
@@ -30,9 +32,9 @@ Two parameters are required to run the tests:
 - Password
 
 ```
-./gradlew clean test --info -Dplatform=Android -Dserver=https://myserver.com -Dusername=alice -Dpassword=hello
+./gradlew clean test --info -Dplatform=Android -Dserver=https://myserver.com
 
-./gradlew clean test --info -Dplatform=iOS -Dserver=https://yourserver.com -Dusername=alice -Dpassword=hello
+./gradlew clean test --info -Dplatform=iOS -Dserver=https://yourserver.com
 ```
 
 If everything goes fine, you'll see everything green!
@@ -42,8 +44,8 @@ If everything goes fine, you'll see everything green!
     Given Alice is on the login page
     When Alice enters the server URL
     And Alice clicks on the login button
-    And Alice enter credentials
     Then Alice should be redirected to the home page
+    And Alice should see the folder named TestForE2EAuto
 
     ┌───────────────────────────────────────────────────────────────────────────────────┐
     │ Share your Cucumber Report with your team at https://reports.cucumber.io          │
